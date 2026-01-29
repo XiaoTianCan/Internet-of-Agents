@@ -1,4 +1,4 @@
-# Internet of Agents
+# [Internet of Agents](https://www.internet-of-agents.net/)
 
 ## Papers
 
