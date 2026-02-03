@@ -65,6 +65,7 @@
 | [Problems Statement and Requirements Analysis of DNS for Internet of Agents (IoA)](https://datatracker.ietf.org/doc/draft-ye-problems-and-requirements-of-dns-for-ioa/) | draft-ye-problems-and-requirements-of-dns-for-ioa | China Mobile, ZDNS | 2025-10 |
 | [DNS-Native AI Agent Naming and Resolution](https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution/) | draft-cui-dns-native-agent-naming-resolution | Tsinghua University | 2025-12 |
 | [Service Binding Mapping for Agents](https://datatracker.ietf.org/doc/draft-zhang-aiproto-svcb-mapping-for-agents/) | draft-zhang-aiproto-svcb-mapping-for-agents | CNNIC | 2026-01 |
+| [Agent Registration and Discovery Protocol (ARDP)](https://datatracker.ietf.org/doc/draft-pioli-agent-discovery/) | draft-pioli-agent-discovery | Independent | 2026-02 |
 
 #### Protocol
 
