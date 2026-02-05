@@ -44,6 +44,7 @@
 | [Dynamic Multi-agents Secured Collaboration Infrastructure Architecture](https://datatracker.ietf.org/doc/draft-li-dmsc-inf-architecture/) | draft-li-dmsc-inf-architecture | China Telecom | 2026-01 |
 | [Agent Collaboration Protocols Architecture for Internet of Agents](https://datatracker.ietf.org/doc/draft-liu-dmsc-acps-arc/00/) | draft-liu-dmsc-acps-arc | Beijing University of Posts and Telecommunications | 2026-01 |
 | [Agent Communication Framework for Network AIOps](https://datatracker.ietf.org/doc/draft-fu-nmop-agent-communication-framework/) | draft-fu-nmop-agent-communication-framework | China Telecom | 2026-01 |
+| [Ontology-based Semantic Interaction for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-dmsc-ioa-semantic-interaction/) | draft-zhang-dmsc-ioa-semantic-interaction | AsiaInfo Technologies (China) Inc. | 2026-02 |
 
 #### Agent Identity
 
