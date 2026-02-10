@@ -78,6 +78,7 @@
 | [Model Context Protocol over Media over QUIC Transport](https://datatracker.ietf.org/doc/draft-jennings-mcp-over-moqt/) | draft-jennings-mcp-over-moqt | Cisco Systems, Google, Five9 | 2025-10 |
 | [Intent-based Agent Interconnection Protocol at Agent Gateway)](https://datatracker.ietf.org/doc/draft-sun-zhang-iaip/) | draft-sun-zhang-iaip | ICT CAS, CNIC CAS | 2026-02 |
 | [Multi-agent Collaboration Protocol Suite based on Agent Gateway)](https://datatracker.ietf.org/doc/draft-li-dmsc-mcps-agw/) | draft-li-dmsc-mcps-agw | China Telecom | 2026-02 |
+| [Intent-based Agent Interconnection Protocol at Agent Gateway](https://datatracker.ietf.org/doc/draft-sz-dmsc-iaip/) | draft-sz-dmsc-iaip | ICT CAS, CNIC CAS | 2026-02 |
 
 #### Security
 
