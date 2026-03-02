@@ -45,6 +45,8 @@
 | [Agent Collaboration Protocols Architecture for Internet of Agents](https://datatracker.ietf.org/doc/draft-liu-dmsc-acps-arc/00/) | draft-liu-dmsc-acps-arc | Beijing University of Posts and Telecommunications | 2026-01 |
 | [Agent Communication Framework for Network AIOps](https://datatracker.ietf.org/doc/draft-fu-nmop-agent-communication-framework/) | draft-fu-nmop-agent-communication-framework | China Telecom | 2026-01 |
 | [Ontology-based Semantic Interaction for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-dmsc-ioa-semantic-interaction/) | draft-zhang-dmsc-ioa-semantic-interaction | AsiaInfo Technologies (China) Inc. | 2026-02 |
+| [Cross-Domain Interoperability Framework for AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-cui-dmsc-agent-cdi/) | draft-cui-dmsc-agent-cdi | Tsinghua University | 2026-02 |
+| [Agent Communication Gateway for Semantic Routing and Working Memory](https://datatracker.ietf.org/doc/draft-agent-gw/) | draft-agent-gw | Tsinghua University, Beijing University of Posts and Telecommunications | 2026-02 |
 
 #### Agent Identity
 
@@ -79,6 +81,7 @@
 | [Intent-based Agent Interconnection Protocol at Agent Gateway)](https://datatracker.ietf.org/doc/draft-sun-zhang-iaip/) | draft-sun-zhang-iaip | ICT CAS, CNIC CAS | 2026-02 |
 | [Multi-agent Collaboration Protocol Suite based on Agent Gateway)](https://datatracker.ietf.org/doc/draft-li-dmsc-mcps-agw/) | draft-li-dmsc-mcps-agw | China Telecom | 2026-02 |
 | [Intent-based Agent Interconnection Protocol at Agent Gateway](https://datatracker.ietf.org/doc/draft-sz-dmsc-iaip/) | draft-sz-dmsc-iaip | ICT CAS, CNIC CAS | 2026-02 |
+| [Multi-agent Collaboration Protocol Suite](https://datatracker.ietf.org/doc/draft-li-dmsc-macp/) | draft-li-dmsc-macp | China Telecom, Beijing University of Posts and Telecommunications, Zhongguancun Laboratory, AsiaInfo Technologies (China) Inc | 2026-02 |
 
 #### Security
 
@@ -86,6 +89,7 @@
 | ---- | ---- | ---- | ---- |
 | [Security Requirements for AI Agents](https://datatracker.ietf.org/doc/draft-ni-a2a-ai-agent-security-requirements/) | draft-ni-a2a-ai-agent-security-requirements | Huawei | 2025-11 |
 | [Privacy-Preserving Federated Learning Architecture for Multi-Tenant AI Agent Systems](https://datatracker.ietf.org/doc/draft-kale-agntcy-federated-privacy/) | draft-kale-agntcy-federated-privacy | Cisco Systems | 2026-01 |
+| [OAuth2.0 Extension for Multi-AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-song-oauth-ai-agent-collaborate-authz/) | draft-song-oauth-ai-agent-collaborate-authz | Huawei | 2026-03 |
 
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
