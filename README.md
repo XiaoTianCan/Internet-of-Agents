@@ -47,6 +47,7 @@
 | [Ontology-based Semantic Interaction for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-dmsc-ioa-semantic-interaction/) | draft-zhang-dmsc-ioa-semantic-interaction | AsiaInfo Technologies (China) Inc. | 2026-02 |
 | [Cross-Domain Interoperability Framework for AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-cui-dmsc-agent-cdi/) | draft-cui-dmsc-agent-cdi | Tsinghua University | 2026-02 |
 | [Agent Communication Gateway for Semantic Routing and Working Memory](https://datatracker.ietf.org/doc/draft-agent-gw/) | draft-agent-gw | Tsinghua University, Beijing University of Posts and Telecommunications | 2026-02 |
+| [Agentic Network Architecture and Protocol for Supporting Agent Interconnection Communication and Multi-level Inference](https://datatracker.ietf.org/doc/draft-chuyi-nmrg-agentic-network-inference/) | draft-chuyi-nmrg-agentic-network-inference | China Mobile | 2026-03 |
 
 #### Agent Identity
 
@@ -69,6 +70,7 @@
 | [DNS-Native AI Agent Naming and Resolution](https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution/) | draft-cui-dns-native-agent-naming-resolution | Tsinghua University | 2025-12 |
 | [Service Binding Mapping for Agents](https://datatracker.ietf.org/doc/draft-zhang-aiproto-svcb-mapping-for-agents/) | draft-zhang-aiproto-svcb-mapping-for-agents | CNNIC | 2026-01 |
 | [Agent Registration and Discovery Protocol (ARDP)](https://datatracker.ietf.org/doc/draft-pioli-agent-discovery/) | draft-pioli-agent-discovery | Independent | 2026-02 |
+| [SD Agent: Selective Disclosure for Agent Discovery and Identity Management](https://datatracker.ietf.org/doc/draft-nandakumar-agent-sd-jwt/) | draft-nandakumar-agent-sd-jwt | Cisco Systems | 2026-03 |
 
 #### Protocol
 
@@ -82,6 +84,9 @@
 | [Multi-agent Collaboration Protocol Suite based on Agent Gateway)](https://datatracker.ietf.org/doc/draft-li-dmsc-mcps-agw/) | draft-li-dmsc-mcps-agw | China Telecom | 2026-02 |
 | [Intent-based Agent Interconnection Protocol at Agent Gateway](https://datatracker.ietf.org/doc/draft-sz-dmsc-iaip/) | draft-sz-dmsc-iaip | ICT CAS, CNIC CAS | 2026-02 |
 | [Multi-agent Collaboration Protocol Suite](https://datatracker.ietf.org/doc/draft-li-dmsc-macp/) | draft-li-dmsc-macp | China Telecom, Beijing University of Posts and Telecommunications, Zhongguancun Laboratory, AsiaInfo Technologies (China) Inc | 2026-02 |
+| [Model Context Protocol and Agent Skills over Media over QUIC Transport](https://datatracker.ietf.org/doc/draft-jennings-ai-mcp-over-moq/) | draft-jennings-ai-mcp-over-moq | Cisco Systems, Google, Five9 | 2026-03 |
+| [MOQ Transport for Agent Protocols](https://datatracker.ietf.org/doc/draft-nandakumar-ai-agent-moq-transport/) | draft-nandakumar-ai-agent-moq-transport | Cisco Systems | 2026-03 |
+| [Agent Protocol over MoQ](https://datatracker.ietf.org/doc/draft-liu-agent-protocol-over-moq/) | draft-liu-agent-protocol-over-moq | Alibaba Cloud, Cisco Systems | 2026-03 |
 
 #### Security
 
