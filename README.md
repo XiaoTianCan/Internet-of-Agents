@@ -32,6 +32,9 @@
 | [Agents Networking Scenarios in Enterprise and Broadband Networks](https://datatracker.ietf.org/doc/draft-pang-agents-networking-scenarios/) | draft-pang-agents-networking-scenarios | China Unicom, Huawei | 2025-11 |
 | [AI Agent Use Cases and Requirements in 6G Network](https://datatracker.ietf.org/doc/draft-yu-dmsc-ai-agent-use-cases-in-6g/) | draft-yu-dmsc-ai-agent-use-cases-in-6g | China Telecom | 2026-01 |
 | [Gateway Requirements for Dynamic Multi-agents Secured Collaboration](https://datatracker.ietf.org/doc/draft-liu-dmsc-gw-requirements/) | draft-liu-dmsc-gw-requirements | Huawei | 2026-01 |
+| [Capabilities and Future Requirements of IPv6 for the Internet of Agents (IoA)](https://datatracker.ietf.org/doc/draft-yc-ipv6-for-ioa/) | draft-yc-ipv6-for-ioa | China Mobile | 2026-03 |
+| [Routing Considerations in Agentic Network](https://datatracker.ietf.org/doc/draft-du-catalist-routing-considerations/) | draft-du-catalist-routing-considerations | China Mobile | 2026-03 |
+| [Problem Statement and Requirements for Dynamic Multi-agent Secured Collaboration (DMSC)](https://datatracker.ietf.org/doc/draft-song-dmsc-problem-statement/) | draft-song-dmsc-problem-statement | Alibaba Cloud | 2026-03 |
 
 #### Framework
 
