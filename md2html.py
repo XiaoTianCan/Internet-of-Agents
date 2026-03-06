@@ -358,7 +358,7 @@ div.toc li {
     
     <!-- 页脚信息 -->
     <footer style="margin-top: 3em; padding-top: 1em; border-top: 1px solid #ccc; font-size: 0.9em; color: #666; text-align: center;">
-        <a href="https://github.com/XiaoTianCan/Internet-of-Agents">Github Repo</a>  Update Date: {update_date}
+        Github Repo: <a href="https://github.com/XiaoTianCan/Internet-of-Agents">XiaoTianCan/Internet-of-Agents</a>, Launch Date: 2026-01-27,  Last Updated: {update_date}
     </footer>
 </body>
 </html>
