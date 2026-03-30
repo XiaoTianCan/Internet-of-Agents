@@ -65,6 +65,7 @@
 | [Agent Identity Protocol: Agentic Authentication and Authorized Policy Enforcement](https://datatracker.ietf.org/doc/draft-aip-agent-identity-protocol/) | draft-aip-agent-identity-protocol | NVIDIA | 2026-03 |
 | [AGTP Agent Certificate Extension](https://datatracker.ietf.org/doc/draft-hood-agtp-agent-cert/) | draft-hood-agtp-agent-cert | Nomotic, Inc. | 2026-03 |
 | [AGTP Web3 Bridge Specification](https://datatracker.ietf.org/doc/draft-hood-agtp-web3-bridge/) | draft-hood-agtp-web3-bridge | Nomotic, Inc. | 2026-03 |
+| [OpenID Connect Agent Identity Claims for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-openid-agent-identity/) | draft-sharif-openid-agent-identity | CyberSecAI Ltd | 2026-03 |
 
 #### Agent Registry and Discovery
 
@@ -87,6 +88,7 @@
 | [Agent Name System (ANS)](https://datatracker.ietf.org/doc/draft-song-anp-ans/) | draft-song-anp-ans | HKUST, CUHK | 2026-03 |
 | [Agent Description Protocol (ADP)](https://datatracker.ietf.org/doc/draft-song-anp-adp/) | draft-song-anp-adp | HKUST, CUHK | 2026-03 |
 | [The "mcp" URI Scheme and MCP Server Discovery Mechanism](https://datatracker.ietf.org/doc/draft-serra-mcp-discovery-uri/) | draft-serra-mcp-discovery-uri | Mumble Group | 2026-03 |
+| [AINS: AInternet Name Service - Agent Discovery and Trust Resolution Protocol](https://datatracker.ietf.org/doc/draft-vandemeent-ains-discovery/) | draft-vandemeent-ains-discovery | Humotica | 2026-03 |
 
 #### Protocol
 
@@ -108,6 +110,8 @@
 | [AGTP Standard Extended Method Vocabulary](https://datatracker.ietf.org/doc/draft-hood-agtp-standard-methods/) | draft-hood-agtp-standard-methods | Nomotic, Inc. | 2026-03 |
 | [Agent Internet Protocol (AIP)](https://datatracker.ietf.org/doc/draft-song-anp-aip/) | draft-song-anp-aip | HKUST, CUHK | 2026-03 |
 | [Agent Invocation Transport Protocol (AITP)](https://datatracker.ietf.org/doc/draft-song-anp-aitp/) | draft-song-anp-aitp | HKUST, CUHK | 2026-03 |
+| [Agent Transport Protocol: Asynchronous Store-and-Forward Messaging for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-agent-transport-protocol/) | draft-sharif-agent-transport-protocol | CyberSecAI Ltd | 2026-03 |
+| [ATTP: Agent Trust Transport Protocol for Secure Agent-to-Server Communication](https://datatracker.ietf.org/doc/draft-sharif-attp-agent-trust-transport/) | draft-sharif-attp-agent-trust-transport | CyberSecAI Ltd | 2026-03 |
 
 #### Security
 
@@ -117,7 +121,16 @@
 | [Privacy-Preserving Federated Learning Architecture for Multi-Tenant AI Agent Systems](https://datatracker.ietf.org/doc/draft-kale-agntcy-federated-privacy/) | draft-kale-agntcy-federated-privacy | Cisco Systems | 2026-01 |
 | [OAuth2.0 Extension for Multi-AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-song-oauth-ai-agent-collaborate-authz/) | draft-song-oauth-ai-agent-collaborate-authz | Huawei | 2026-03 |
 | [A Trust and Authentication Framework for Cross-Domain Agent-to-Agent Communications](https://datatracker.ietf.org/doc/draft-kiliram-agent-trust-auth-framework/) | draft-kiliram-agent-trust-auth-framework | Lancaster University, BBC, Huawei | 2026-03 |
+| [Agent Credential Attestation Protocol (ACAP)](https://datatracker.ietf.org/doc/draft-yakung-oauth-agent-attestation/) | draft-yakung-oauth-agent-attestation | Attest | 2026-03 |
+| [Agent Identity Protocol (AIP): Verifiable Delegation for AI Agent Systems](https://datatracker.ietf.org/doc/draft-prakash-aip/) | draft-prakash-aip | Independent | 2026-03 |
+| [Agent Passport System (APS): Cryptographic Identity, Faceted Authority Attenuation, and Governance for AI Agent Systems](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/) | draft-pidlisnyi-aps | AEOESS | 2026-03 |
 
+#### Others
+
+| Title | Document Name | Authors' Affiliation | Date of v00 |
+| ---- | ---- | ---- | ---- |
+| [Trust Scoring and Identity Verification for Autonomous AI Agent Payment Transactions](https://datatracker.ietf.org/doc/draft-sharif-agent-payment-trust/) | draft-sharif-agent-payment-trust | CyberSecAI Ltd | 2026-03 |
+| [AAP: Agent Accountability Protocol](https://datatracker.ietf.org/doc/draft-wang-aap/) | draft-wang-aap | HJS Foundation Ltd. | 2026-03 |
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
 
