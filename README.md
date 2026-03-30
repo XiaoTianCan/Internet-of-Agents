@@ -51,6 +51,8 @@
 | [Cross-Domain Interoperability Framework for AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-cui-dmsc-agent-cdi/) | draft-cui-dmsc-agent-cdi | Tsinghua University | 2026-02 |
 | [Agent Communication Gateway for Semantic Routing and Working Memory](https://datatracker.ietf.org/doc/draft-agent-gw/) | draft-agent-gw | Tsinghua University, Beijing University of Posts and Telecommunications | 2026-02 |
 | [Agentic Network Architecture and Protocol for Supporting Agent Interconnection Communication and Multi-level Inference](https://datatracker.ietf.org/doc/draft-chuyi-nmrg-agentic-network-inference/) | draft-chuyi-nmrg-agentic-network-inference | China Mobile | 2026-03 |
+| [Considerations for AI Agent Communication and Networking in Enterprise](https://datatracker.ietf.org/doc/draft-han-agent-comm-enterprise/) | draft-han-agent-comm-enterprise | China Unicom | 2026-03 |
+| [Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) | draft-eckert-catalist-acip-framework | Futurewei | 2026-03 |
 
 #### Agent Identity
 
@@ -59,6 +61,10 @@
 | [Selective Disclosure for Agent Discovery and Identity Management (SD-Agent)](https://datatracker.ietf.org/doc/draft-nandakumar-agent-sd-jwt/) | draft-nandakumar-agent-sd-jwt | Cisco Systems | 2025-10 |
 | [WIMSE Applicability for AI Agents](https://datatracker.ietf.org/doc/draft-ni-wimse-ai-agent-identity/) | draft-ni-wimse-ai-agent-identity | Huawei | 2025-10 |
 | [Agent Identity Managenment](https://datatracker.ietf.org/doc/draft-zheng-dispatch-agent-identity-management/) | draft-zheng-dispatch-agent-identity-management | Huawei | 2025-11 |
+| [AgentID: An Identity Protocol for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-gudlab-agentid-protocol/) | draft-gudlab-agentid-protocol | GudLab | 2026-03 |
+| [Agent Identity Protocol: Agentic Authentication and Authorized Policy Enforcement](https://datatracker.ietf.org/doc/draft-aip-agent-identity-protocol/) | draft-aip-agent-identity-protocol | NVIDIA | 2026-03 |
+| [AGTP Agent Certificate Extension](https://datatracker.ietf.org/doc/draft-hood-agtp-agent-cert/) | draft-hood-agtp-agent-cert | Nomotic, Inc. | 2026-03 |
+| [AGTP Web3 Bridge Specification](https://datatracker.ietf.org/doc/draft-hood-agtp-web3-bridge/) | draft-hood-agtp-web3-bridge | Nomotic, Inc. | 2026-03 |
 
 #### Agent Registry and Discovery
 
@@ -74,6 +80,13 @@
 | [Service Binding Mapping for Agents](https://datatracker.ietf.org/doc/draft-zhang-aiproto-svcb-mapping-for-agents/) | draft-zhang-aiproto-svcb-mapping-for-agents | CNNIC | 2026-01 |
 | [Agent Registration and Discovery Protocol (ARDP)](https://datatracker.ietf.org/doc/draft-pioli-agent-discovery/) | draft-pioli-agent-discovery | Independent | 2026-02 |
 | [SD Agent: Selective Disclosure for Agent Discovery and Identity Management](https://datatracker.ietf.org/doc/draft-nandakumar-agent-sd-jwt/) | draft-nandakumar-agent-sd-jwt | Cisco Systems | 2026-03 |
+| [A Layered Approach to AI discovery](https://datatracker.ietf.org/doc/draft-am-layered-ai-discovery-architecture/) | draft-am-layered-ai-discovery-architecture | Huawei Canada | 2026-03 |
+| [Agent Identity and Discovery (AID)](https://datatracker.ietf.org/doc/draft-nemethi-aid-agent-identity-discovery/) | draft-nemethi-aid-agent-identity-discovery | Open Agent Registry | 2026-03 |
+| [The AI Discovery Endpoint: A Structured Mechanism for AI Agent Service Discovery and Capability Exposure](https://datatracker.ietf.org/doc/draft-aiendpoint-ai-discovery/) | draft-aiendpoint-ai-discovery | AIEndpoint | 2026-03 |
+| [AGTP Agent Discovery and Name Service](https://datatracker.ietf.org/doc/draft-hood-agtp-discovery/) | draft-hood-agtp-discovery | Nomotic, Inc. | 2026-03 |
+| [Agent Name System (ANS)](https://datatracker.ietf.org/doc/draft-song-anp-ans/) | draft-song-anp-ans | HKUST, CUHK | 2026-03 |
+| [Agent Description Protocol (ADP)](https://datatracker.ietf.org/doc/draft-song-anp-adp/) | draft-song-anp-adp | HKUST, CUHK | 2026-03 |
+| [The "mcp" URI Scheme and MCP Server Discovery Mechanism](https://datatracker.ietf.org/doc/draft-serra-mcp-discovery-uri/) | draft-serra-mcp-discovery-uri | Mumble Group | 2026-03 |
 
 #### Protocol
 
@@ -90,6 +103,11 @@
 | [Model Context Protocol and Agent Skills over Media over QUIC Transport](https://datatracker.ietf.org/doc/draft-jennings-ai-mcp-over-moq/) | draft-jennings-ai-mcp-over-moq | Cisco Systems, Google, Five9 | 2026-03 |
 | [MOQ Transport for Agent Protocols](https://datatracker.ietf.org/doc/draft-nandakumar-ai-agent-moq-transport/) | draft-nandakumar-ai-agent-moq-transport | Cisco Systems | 2026-03 |
 | [Agent Protocol over MoQ](https://datatracker.ietf.org/doc/draft-liu-agent-protocol-over-moq/) | draft-liu-agent-protocol-over-moq | Alibaba Cloud, Cisco Systems | 2026-03 |
+| [Agent Metadata Synchronization Protocol](https://datatracker.ietf.org/doc/draft-liu-agent-metadata-sync-protocol/) | draft-liu-agent-metadata-sync-protocol | Huawei, China Unicom | 2026-03 |
+| [Agent Transfer Protocol (ATP)](https://datatracker.ietf.org/doc/draft-li-atp/) | draft-li-atp | Nankai University | 2026-03 |
+| [AGTP Standard Extended Method Vocabulary](https://datatracker.ietf.org/doc/draft-hood-agtp-standard-methods/) | draft-hood-agtp-standard-methods | Nomotic, Inc. | 2026-03 |
+| [Agent Internet Protocol (AIP)](https://datatracker.ietf.org/doc/draft-song-anp-aip/) | draft-song-anp-aip | HKUST, CUHK | 2026-03 |
+| [Agent Invocation Transport Protocol (AITP)](https://datatracker.ietf.org/doc/draft-song-anp-aitp/) | draft-song-anp-aitp | HKUST, CUHK | 2026-03 |
 
 #### Security
 
@@ -98,6 +116,7 @@
 | [Security Requirements for AI Agents](https://datatracker.ietf.org/doc/draft-ni-a2a-ai-agent-security-requirements/) | draft-ni-a2a-ai-agent-security-requirements | Huawei | 2025-11 |
 | [Privacy-Preserving Federated Learning Architecture for Multi-Tenant AI Agent Systems](https://datatracker.ietf.org/doc/draft-kale-agntcy-federated-privacy/) | draft-kale-agntcy-federated-privacy | Cisco Systems | 2026-01 |
 | [OAuth2.0 Extension for Multi-AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-song-oauth-ai-agent-collaborate-authz/) | draft-song-oauth-ai-agent-collaborate-authz | Huawei | 2026-03 |
+| [A Trust and Authentication Framework for Cross-Domain Agent-to-Agent Communications](https://datatracker.ietf.org/doc/draft-kiliram-agent-trust-auth-framework/) | draft-kiliram-agent-trust-auth-framework | Lancaster University, BBC, Huawei | 2026-03 |
 
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
