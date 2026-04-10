@@ -16,6 +16,7 @@
 | [智能体互联网:概念、架构及关键技术](https://www.telecomsci.com/zh/article/doi/10.11959/j.issn.1000-0801.2025221/) | 2025-10 | 中国移动 | 电信科学 (Telecommunications Science) |
 | [Agent Discovery in Internet of Agents: Challenges and Solutions](https://arxiv.org/pdf/2511.19113) | 2025-11 | Xi’an Jiaotong University | arXiv |
 | [A Layered Protocol Architecture for the Internet of Agents](https://arxiv.org/abs/2511.19699) | 2025-11 | Cisco Systems | arXiv |
+| [AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents](https://arxiv.org/abs/2604.06696) | 2026-03 | USTB, China Telecom, UCAS | arXiv |
 
 
 ## Standard Proposals
@@ -169,5 +170,7 @@
 | [Agent Network Protocol (ANP)](https://www.agent-network-protocol.com/) | 常高伟 | https://github.com/agent-network-protocol |
 | [智能体互联开源社区](https://aip.openatom.tech/) | 北京邮电大学、电子标准院 | https://atomgit.com/AIP-PUB |
 | [Agent Gateway Protocol (AGP)](https://github.com/a2aproject/a2a-samples/blob/main/extensions/agp/spec.md) | Google | https://github.com/a2aproject/a2a-samples/tree/main/extensions/agp |
+| [Agent Message Transfer Protocol (AMTP)](https://amtp-protocol.org/) | agentry | https://github.com/amtp-protocol/agentry |
+| [OpenGateway](https://datatracker.ietf.org/doc/draft-agent-gw/) | 清华大学 | https://github.com/anAtheist987/OpenGateway |
 | [CCSA TC3 WG3 SWG2: 智能体网络](https://www.ccsa.org.cn/station/?title=TC3&index=0&menuIndex=1) | 中国通信标准化协会 | NA |
 | [CCSA TC5 WG12 SWG1: 智能体通信网络](https://www.ccsa.org.cn/station/?title=TC5&index=0&menuIndex=3) | 中国通信标准化协会 | NA |
