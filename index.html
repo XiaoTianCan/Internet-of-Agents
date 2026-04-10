@@ -1,11 +1,1162 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="vite.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet of Agents</title>
+    <style>
+        
+/* 全局样式 - 学术风格基础 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, 'SimSun', 'Microsoft YaHei';
+    font-size: 16px;
+    line-height: 1.6;  /* 学术文档最佳行高 */
+    color: #333;
+    background-color: #f9f9f9;
+    max-width: 900px;  /* 学术文档最佳宽度 */
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #222;
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+    border-bottom: none;
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.3em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 1px solid #666;
+    padding-bottom: 0.2em;
+}
+
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; color: #666; }
+
+/* 段落样式 */
+p {
+    margin-bottom: 1em;
+    text-align: justify;  /* 两端对齐，学术风格 */
+}
+
+/* 列表样式 */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* 学术风格表格（三线表） */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+}
+
+/* 三线表核心样式：仅显示上、下、表头下边框 */
+table thead {
+    border-bottom: 2px solid #333;
+}
+
+table tbody {
+    border-bottom: 1px solid #333;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border: none;  /* 去除默认边框 */
+}
+
+th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+/* 隔行变色（可选，增强可读性） */
+tr:nth-child(even) td {
+    background-color: #f8f8f8;
+}
+
+/* 代码块样式（适配codehilite扩展） */
+.codehilite {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1.5em 0;
+    overflow-x: auto;
+}
+
+.codehilite pre {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* 行内代码样式 */
+code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    background-color: #f0f0f0;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* 链接样式 */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 引用样式 */
+blockquote {
+    border-left: 4px solid #666;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background-color: #f5f5f5;
+    font-style: italic;
+}
+
+/* 图片样式 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/* 目录样式 */
+div.toc {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0 2em 0;
+    border-radius: 4px;
+}
+
+div.toc h2 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.2em;
+}
+
+div.toc ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+div.toc li {
+    margin-bottom: 0.3em;
+}
+
+/* 脚注样式 */
+.footnote {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+    
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.3em; }
+}
+
+/* 代码高亮补充样式（适配pygments默认主题） */
+.codehilite .hll { background-color: #ffffcc }
+.codehilite .c { color: #408080; font-style: italic } /* Comment */
+.codehilite .err { border: 1px solid #FF0000 } /* Error */
+.codehilite .k { color: #008000; font-weight: bold } /* Keyword */
+.codehilite .o { color: #666666 } /* Operator */
+.codehilite .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.codehilite .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.codehilite .cp { color: #BC7A00 } /* Comment.Preproc */
+.codehilite .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.codehilite .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.codehilite .cs { color: #408080; font-style: italic } /* Comment.Special */
+.codehilite .gd { color: #A00000 } /* Generic.Deleted */
+.codehilite .ge { font-style: italic } /* Generic.Emph */
+.codehilite .gr { color: #FF0000 } /* Generic.Error */
+.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.codehilite .gi { color: #00A000 } /* Generic.Inserted */
+.codehilite .go { color: #888888 } /* Generic.Output */
+.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.codehilite .gs { font-weight: bold } /* Generic.Strong */
+.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codehilite .gt { color: #0044DD } /* Generic.Traceback */
+.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.codehilite .kp { color: #008000 } /* Keyword.Pseudo */
+.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.codehilite .kt { color: #B00040 } /* Keyword.Type */
+.codehilite .m { color: #666666 } /* Literal.Number */
+.codehilite .s { color: #BA2121 } /* Literal.String */
+.codehilite .na { color: #7D9029 } /* Name.Attribute */
+.codehilite .nb { color: #008000 } /* Name.Builtin */
+.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.codehilite .no { color: #880000 } /* Name.Constant */
+.codehilite .nd { color: #AA22FF } /* Name.Decorator */
+.codehilite .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.codehilite .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.codehilite .nf { color: #0000FF } /* Name.Function */
+.codehilite .nl { color: #A0A000 } /* Name.Label */
+.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.codehilite .nv { color: #19177C } /* Name.Variable */
+.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.codehilite .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite .mb { color: #666666 } /* Literal.Number.Bin */
+.codehilite .mf { color: #666666 } /* Literal.Number.Float */
+.codehilite .mh { color: #666666 } /* Literal.Number.Hex */
+.codehilite .mi { color: #666666 } /* Literal.Number.Integer */
+.codehilite .mo { color: #666666 } /* Literal.Number.Oct */
+.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */
+.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */
+.codehilite .sc { color: #BA2121 } /* Literal.String.Char */
+.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */
+.codehilite .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.codehilite .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.codehilite .sx { color: #008000 } /* Literal.String.Other */
+.codehilite .sr { color: #BB6688 } /* Literal.String.Regex */
+.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */
+.codehilite .ss { color: #19177C } /* Literal.String.Symbol */
+.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.codehilite .fm { color: #0000FF } /* Name.Function.Magic */
+.codehilite .vc { color: #19177C } /* Name.Variable.Class */
+.codehilite .vg { color: #19177C } /* Name.Variable.Global */
+.codehilite .vi { color: #19177C } /* Name.Variable.Instance */
+.codehilite .vm { color: #19177C } /* Name.Variable.Magic */
+.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */
+    
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1 id="internet-of-agentsnet"><a href="https://www.internet-of-agents.net/">internet-of-agents.net</a></h1>
+<h2 id="papers">Papers</h2>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Publication Date</th>
+<th>Authors' Affiliation</th>
+<th>Published On</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/2407.07061">Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence</a></td>
+<td>2024-07</td>
+<td>Tsinghua University, Peking University, Beijing University of Posts and Telecommunications, Tencent</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2410.11905">A Scalable Communication Protocol for Networks of Large Language Models</a></td>
+<td>2024-10</td>
+<td>University of Oxford</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://openreview.net/pdf?id=o1Et3MogPw">Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence</a></td>
+<td>2025-01</td>
+<td>Tsinghua University, Peking University, Beijing University of Posts and Telecommunications, Tencent</td>
+<td>International Conference on Learning Representations (ICLR)</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2505.00749">Coral Protocol: Open Infrastructure Connecting The Internet of Agents</a></td>
+<td>2025-03</td>
+<td>CoralProtocol</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2507.14263">Beyond DNS: Unlocking the Internet of AI Agents via the NANDA Index and Verified AgentFacts</a></td>
+<td>2025-03</td>
+<td>MIT, Akamai, Cisco, TCS, Dell, etc.</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2504.16736">A Survey of AI Agent Protocols</a></td>
+<td>2025-04</td>
+<td>Shanghai Jiao Tong University Team</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2505.10609">Agent Name Service (ANS): A Universal Directory for Secure AI Agent Discovery and Interoperability</a></td>
+<td>2025-05</td>
+<td>DistributedApps.ai, Amazon Web Services, Intuit, Cisco Systems</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2505.13523">ACPs: Agent Collaboration Protocols for the Internet of Agents</a></td>
+<td>2025-05</td>
+<td>Beijing University of Posts and Telecommunications</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2505.08807">Security of Internet of Agents: Attacks and Countermeasures</a></td>
+<td>2025-05</td>
+<td>Xi’an Jiaotong University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2508.00007">Agent Network Protocol Technical White Paper</a></td>
+<td>2025-07</td>
+<td>ANP Open Source Technology Community</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2506.12003">Upgrade or Switch: Do We Need a Next-Gen Trusted Architecture for the Internet of AI Agents?</a></td>
+<td>2025-07</td>
+<td>-</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2508.02188">Whispering Agents: An Event-driven Covert Communication Protocol For the Internet of Agents</a></td>
+<td>2025-08</td>
+<td>Beijing University of Posts and Telecommunications</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2509.02317">AI Agent Communication from Internet Architecture Perspective: Challenges and Opportunities</a></td>
+<td>2025-09</td>
+<td>Zhongguancun Laboratory, Tsinghua University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2509.04979">Internet 3.0: Architecture for a Web-of-Agents with it's Algorithm for Ranking Agents</a></td>
+<td>2025-09</td>
+<td>New York University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2509.18787">The AGNTCY Agent Directory Service: Architecture and Implementation</a></td>
+<td>2025-09</td>
+<td>Cisco Systems</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2509.02124">FlexNGIA 2.0: Redesigning the Internet with Agentic AI -- Protocols, Services, and Traffic Engineering Designed, Deployed, and Managed by AI</a></td>
+<td>2025-09</td>
+<td>FlexNGIA, University of Sousse</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2505.07176">Internet of Agents: Fundamentals, Applications, and Challenges</a></td>
+<td>2025-10</td>
+<td>Xi’an Jiaotong University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://www.telecomsci.com/zh/article/doi/10.11959/j.issn.1000-0801.2025221/">智能体互联网:概念、架构及关键技术</a></td>
+<td>2025-10</td>
+<td>中国移动</td>
+<td>电信科学 (Telecommunications Science)</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2511.19113">Agent Discovery in Internet of Agents: Challenges and Solutions</a></td>
+<td>2025-11</td>
+<td>Xi’an Jiaotong University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2511.19699">A Layered Protocol Architecture for the Internet of Agents</a></td>
+<td>2025-11</td>
+<td>Cisco Systems</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2512.00520">Toward a Safe Internet of Agents</a></td>
+<td>2025-11</td>
+<td>Chinese University of Hong Kong</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2511.07176">Graph Representation-based Model Poisoning on the Heterogeneous Internet of Agents</a></td>
+<td>2025-11</td>
+<td>University of Cambridge, CISTER Research Centre, Guizhou University, Koc University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2512.14737">Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol</a></td>
+<td>2025-12</td>
+<td>BJUT</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2512.11979">Designing The Internet of Agents: A Framework for Trustworthy, Transparent, and Collaborative Human-Agent Interaction (HAX)</a></td>
+<td>2025-12</td>
+<td>Outshift by Cisco</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2602.13795">Agent-OSI: A Layered Protocol Stack Toward a Decentralized Internet of Agents</a></td>
+<td>2026-02</td>
+<td>Shenzhen University</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2603.15900">The Internet of Physical AI Agents: Interoperability, Longevity, and the Cost of Getting It Wrong</a></td>
+<td>2026-03</td>
+<td>EURECOM, Ericsson Silicon Valley</td>
+<td>arXiv</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2604.06696">AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents</a></td>
+<td>2026-04</td>
+<td>USTB, China Telecom, UCAS</td>
+<td>arXiv</td>
+</tr>
+</tbody>
+</table>
+<h2 id="standard-proposals">Standard Proposals</h2>
+<h3 id="ietf">IETF</h3>
+<h4 id="use-cases-gap-analysis-and-requirements">Use Cases, Gap Analysis, and Requirements</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-men-rtgwg-agent-networking-in-digibank/">Agent Networking Scenarios of Digital Banking</a></td>
+<td>draft-men-rtgwg-agent-networking-in-digibank</td>
+<td>UnionPay, Huawei</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-liu-rtgwg-agent-gateway-requirements/">Requirements for Agent Gateway</a></td>
+<td>draft-liu-rtgwg-agent-gateway-requirements</td>
+<td>Huawei, CAICT</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-zgsgl-dispatch-a2a-requirements-enterprise/">Enhanced A2A Requirements for Agents Collobration in Enterprise</a></td>
+<td>draft-zgsgl-dispatch-a2a-requirements-enterprise</td>
+<td>Huawei, CAICT</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-pang-agents-networking-scenarios/">Agents Networking Scenarios in Enterprise and Broadband Networks</a></td>
+<td>draft-pang-agents-networking-scenarios</td>
+<td>China Unicom, Huawei</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-yu-dmsc-ai-agent-use-cases-in-6g/">AI Agent Use Cases and Requirements in 6G Network</a></td>
+<td>draft-yu-dmsc-ai-agent-use-cases-in-6g</td>
+<td>China Telecom</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-liu-dmsc-gw-requirements/">Gateway Requirements for Dynamic Multi-agents Secured Collaboration</a></td>
+<td>draft-liu-dmsc-gw-requirements</td>
+<td>Huawei</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-yc-ipv6-for-ioa/">Capabilities and Future Requirements of IPv6 for the Internet of Agents (IoA)</a></td>
+<td>draft-yc-ipv6-for-ioa</td>
+<td>China Mobile</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-du-catalist-routing-considerations/">Routing Considerations in Agentic Network</a></td>
+<td>draft-du-catalist-routing-considerations</td>
+<td>China Mobile</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-song-dmsc-problem-statement/">Problem Statement and Requirements for Dynamic Multi-agent Secured Collaboration (DMSC)</a></td>
+<td>draft-song-dmsc-problem-statement</td>
+<td>Alibaba Cloud</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h4 id="framework">Framework</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-zlgsgl-rtgwg-agents-networking-framework/">Agents Networking Framework for Enterprise and Broadband</a></td>
+<td>draft-zlgsgl-rtgwg-agents-networking-framework</td>
+<td>Huawei</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-li-semantic-routing-architecture/">Semantic Routing Architecture for AI Agents Communication</a></td>
+<td>draft-li-semantic-routing-architecture</td>
+<td>China Telecom</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-han-rtgwg-agent-gateway-intercomm-framework/">Agent Gateway Intercommunication Framework</a></td>
+<td>draft-han-rtgwg-agent-gateway-intercomm-framework</td>
+<td>China Unicom</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-yang-dmsc-ioa-task-protocol/">Internet of Agents Task Protocol (IoA Task Protocol) for Heterogeneous Agent Collaboration</a></td>
+<td>draft-yang-dmsc-ioa-task-protocol</td>
+<td>Beijing University of Posts and Telecommunications, Tsinghua University, China Telecom</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-li-dmsc-inf-architecture/">Dynamic Multi-agents Secured Collaboration Infrastructure Architecture</a></td>
+<td>draft-li-dmsc-inf-architecture</td>
+<td>China Telecom</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-liu-dmsc-acps-arc/00/">Agent Collaboration Protocols Architecture for Internet of Agents</a></td>
+<td>draft-liu-dmsc-acps-arc</td>
+<td>Beijing University of Posts and Telecommunications</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-fu-nmop-agent-communication-framework/">Agent Communication Framework for Network AIOps</a></td>
+<td>draft-fu-nmop-agent-communication-framework</td>
+<td>China Telecom</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-zhang-dmsc-ioa-semantic-interaction/">Ontology-based Semantic Interaction for Internet of Agents</a></td>
+<td>draft-zhang-dmsc-ioa-semantic-interaction</td>
+<td>AsiaInfo Technologies (China) Inc.</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-cui-dmsc-agent-cdi/">Cross-Domain Interoperability Framework for AI Agent Collaboration</a></td>
+<td>draft-cui-dmsc-agent-cdi</td>
+<td>Tsinghua University</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-agent-gw/">Agent Communication Gateway for Semantic Routing and Working Memory</a></td>
+<td>draft-agent-gw</td>
+<td>Tsinghua University, Beijing University of Posts and Telecommunications</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-chuyi-nmrg-agentic-network-inference/">Agentic Network Architecture and Protocol for Supporting Agent Interconnection Communication and Multi-level Inference</a></td>
+<td>draft-chuyi-nmrg-agentic-network-inference</td>
+<td>China Mobile</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-han-agent-comm-enterprise/">Considerations for AI Agent Communication and Networking in Enterprise</a></td>
+<td>draft-han-agent-comm-enterprise</td>
+<td>China Unicom</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/">Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks</a></td>
+<td>draft-eckert-catalist-acip-framework</td>
+<td>Futurewei</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h4 id="agent-identity">Agent Identity</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-nandakumar-agent-sd-jwt/">Selective Disclosure for Agent Discovery and Identity Management (SD-Agent)</a></td>
+<td>draft-nandakumar-agent-sd-jwt</td>
+<td>Cisco Systems</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-ni-wimse-ai-agent-identity/">WIMSE Applicability for AI Agents</a></td>
+<td>draft-ni-wimse-ai-agent-identity</td>
+<td>Huawei</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-zheng-dispatch-agent-identity-management/">Agent Identity Managenment</a></td>
+<td>draft-zheng-dispatch-agent-identity-management</td>
+<td>Huawei</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-gudlab-agentid-protocol/">AgentID: An Identity Protocol for Autonomous AI Agents</a></td>
+<td>draft-gudlab-agentid-protocol</td>
+<td>GudLab</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-aip-agent-identity-protocol/">Agent Identity Protocol: Agentic Authentication and Authorized Policy Enforcement</a></td>
+<td>draft-aip-agent-identity-protocol</td>
+<td>NVIDIA</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-hood-agtp-agent-cert/">AGTP Agent Certificate Extension</a></td>
+<td>draft-hood-agtp-agent-cert</td>
+<td>Nomotic, Inc.</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-hood-agtp-web3-bridge/">AGTP Web3 Bridge Specification</a></td>
+<td>draft-hood-agtp-web3-bridge</td>
+<td>Nomotic, Inc.</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-sharif-openid-agent-identity/">OpenID Connect Agent Identity Claims for Autonomous AI Agents</a></td>
+<td>draft-sharif-openid-agent-identity</td>
+<td>CyberSecAI Ltd</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h4 id="agent-registry-and-discovery">Agent Registry and Discovery</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-narajala-ans/">Agent Name Service (ANS): A Universal Directory for Secure AI Agent Discovery and Interoperability</a></td>
+<td>draft-narajala-ans</td>
+<td>DistributedApps.ai, Amazon Web Services, Intuit, Cisco Systems</td>
+<td>2025-05</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-mp-agntcy-ads/">Agent Directory Service</a></td>
+<td>draft-mp-agntcy-ads</td>
+<td>Cisco Systems</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-liang-agentdns/00/">AgentDNS: A Root Domain Naming System for LLM Agents</a></td>
+<td>draft-liang-agentdns</td>
+<td>China Telecom, University of Science and Technology Beijing</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-bandaid/">Brokered Agent Network for DNS AI Discovery</a></td>
+<td>draft-mozleywilliams-dnsop-bandaid</td>
+<td>Infoblox, Unaffiliated, Deutsche Telecom</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-cui-ai-agent-discovery-invocation/">HTTP-Based AI Agent Discovery and Invocation Protocol</a></td>
+<td>draft-cui-ai-agent-discovery-invocation</td>
+<td>Tsinghua University, Zhongguancun Laboratory</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-ye-problems-and-requirements-of-dns-for-ioa/">Problems Statement and Requirements Analysis of DNS for Internet of Agents (IoA)</a></td>
+<td>draft-ye-problems-and-requirements-of-dns-for-ioa</td>
+<td>China Mobile, ZDNS</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution/">DNS-Native AI Agent Naming and Resolution</a></td>
+<td>draft-cui-dns-native-agent-naming-resolution</td>
+<td>Tsinghua University</td>
+<td>2025-12</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-zhang-aiproto-svcb-mapping-for-agents/">Service Binding Mapping for Agents</a></td>
+<td>draft-zhang-aiproto-svcb-mapping-for-agents</td>
+<td>CNNIC</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-pioli-agent-discovery/">Agent Registration and Discovery Protocol (ARDP)</a></td>
+<td>draft-pioli-agent-discovery</td>
+<td>Independent</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-nandakumar-agent-sd-jwt/">SD Agent: Selective Disclosure for Agent Discovery and Identity Management</a></td>
+<td>draft-nandakumar-agent-sd-jwt</td>
+<td>Cisco Systems</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-am-layered-ai-discovery-architecture/">A Layered Approach to AI discovery</a></td>
+<td>draft-am-layered-ai-discovery-architecture</td>
+<td>Huawei Canada</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-nemethi-aid-agent-identity-discovery/">Agent Identity and Discovery (AID)</a></td>
+<td>draft-nemethi-aid-agent-identity-discovery</td>
+<td>Open Agent Registry</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-aiendpoint-ai-discovery/">The AI Discovery Endpoint: A Structured Mechanism for AI Agent Service Discovery and Capability Exposure</a></td>
+<td>draft-aiendpoint-ai-discovery</td>
+<td>AIEndpoint</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-hood-agtp-discovery/">AGTP Agent Discovery and Name Service</a></td>
+<td>draft-hood-agtp-discovery</td>
+<td>Nomotic, Inc.</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-song-anp-ans/">Agent Name System (ANS)</a></td>
+<td>draft-song-anp-ans</td>
+<td>HKUST, CUHK</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-song-anp-adp/">Agent Description Protocol (ADP)</a></td>
+<td>draft-song-anp-adp</td>
+<td>HKUST, CUHK</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-serra-mcp-discovery-uri/">The "mcp" URI Scheme and MCP Server Discovery Mechanism</a></td>
+<td>draft-serra-mcp-discovery-uri</td>
+<td>Mumble Group</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-vandemeent-ains-discovery/">AINS: AInternet Name Service - Agent Discovery and Trust Resolution Protocol</a></td>
+<td>draft-vandemeent-ains-discovery</td>
+<td>Humotica</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h4 id="protocol">Protocol</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-mpsb-agntcy-messaging/">An Overview of Messaging Systems and Their Applicability to Agentic AI</a></td>
+<td>draft-mpsb-agntcy-messaging</td>
+<td>Cisco Systems</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-mpsb-agntcy-slim/">Secure Low-Latency Interactive Messaging (SLIM)</a></td>
+<td>draft-mpsb-agntcy-slim</td>
+<td>Cisco Systems</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-nandakumar-a2a-moqt-transport/00/">Media over QUIC Transport (MOQT) for Agent-to-Agent Protocol</a></td>
+<td>draft-nandakumar-a2a-moqt-transport</td>
+<td>Cisco Systems</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-jennings-mcp-over-moqt/">Model Context Protocol over Media over QUIC Transport</a></td>
+<td>draft-jennings-mcp-over-moqt</td>
+<td>Cisco Systems, Google, Five9</td>
+<td>2025-10</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-sun-zhang-iaip/">Intent-based Agent Interconnection Protocol at Agent Gateway)</a></td>
+<td>draft-sun-zhang-iaip</td>
+<td>ICT CAS, CNIC CAS</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-li-dmsc-mcps-agw/">Multi-agent Collaboration Protocol Suite based on Agent Gateway)</a></td>
+<td>draft-li-dmsc-mcps-agw</td>
+<td>China Telecom</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-sz-dmsc-iaip/">Intent-based Agent Interconnection Protocol at Agent Gateway</a></td>
+<td>draft-sz-dmsc-iaip</td>
+<td>ICT CAS, CNIC CAS</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-li-dmsc-macp/">Multi-agent Collaboration Protocol Suite</a></td>
+<td>draft-li-dmsc-macp</td>
+<td>China Telecom, Beijing University of Posts and Telecommunications, Zhongguancun Laboratory, AsiaInfo Technologies (China) Inc</td>
+<td>2026-02</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-jennings-ai-mcp-over-moq/">Model Context Protocol and Agent Skills over Media over QUIC Transport</a></td>
+<td>draft-jennings-ai-mcp-over-moq</td>
+<td>Cisco Systems, Google, Five9</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-nandakumar-ai-agent-moq-transport/">MOQ Transport for Agent Protocols</a></td>
+<td>draft-nandakumar-ai-agent-moq-transport</td>
+<td>Cisco Systems</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-liu-agent-protocol-over-moq/">Agent Protocol over MoQ</a></td>
+<td>draft-liu-agent-protocol-over-moq</td>
+<td>Alibaba Cloud, Cisco Systems</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-liu-agent-metadata-sync-protocol/">Agent Metadata Synchronization Protocol</a></td>
+<td>draft-liu-agent-metadata-sync-protocol</td>
+<td>Huawei, China Unicom</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-li-atp/">Agent Transfer Protocol (ATP)</a></td>
+<td>draft-li-atp</td>
+<td>Nankai University</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-hood-agtp-standard-methods/">AGTP Standard Extended Method Vocabulary</a></td>
+<td>draft-hood-agtp-standard-methods</td>
+<td>Nomotic, Inc.</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-song-anp-aip/">Agent Internet Protocol (AIP)</a></td>
+<td>draft-song-anp-aip</td>
+<td>HKUST, CUHK</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-song-anp-aitp/">Agent Invocation Transport Protocol (AITP)</a></td>
+<td>draft-song-anp-aitp</td>
+<td>HKUST, CUHK</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-sharif-agent-transport-protocol/">Agent Transport Protocol: Asynchronous Store-and-Forward Messaging for Autonomous AI Agents</a></td>
+<td>draft-sharif-agent-transport-protocol</td>
+<td>CyberSecAI Ltd</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-sharif-attp-agent-trust-transport/">ATTP: Agent Trust Transport Protocol for Secure Agent-to-Server Communication</a></td>
+<td>draft-sharif-attp-agent-trust-transport</td>
+<td>CyberSecAI Ltd</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h4 id="security">Security</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-ni-a2a-ai-agent-security-requirements/">Security Requirements for AI Agents</a></td>
+<td>draft-ni-a2a-ai-agent-security-requirements</td>
+<td>Huawei</td>
+<td>2025-11</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-kale-agntcy-federated-privacy/">Privacy-Preserving Federated Learning Architecture for Multi-Tenant AI Agent Systems</a></td>
+<td>draft-kale-agntcy-federated-privacy</td>
+<td>Cisco Systems</td>
+<td>2026-01</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-song-oauth-ai-agent-collaborate-authz/">OAuth2.0 Extension for Multi-AI Agent Collaboration</a></td>
+<td>draft-song-oauth-ai-agent-collaborate-authz</td>
+<td>Huawei</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-kiliram-agent-trust-auth-framework/">A Trust and Authentication Framework for Cross-Domain Agent-to-Agent Communications</a></td>
+<td>draft-kiliram-agent-trust-auth-framework</td>
+<td>Lancaster University, BBC, Huawei</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-yakung-oauth-agent-attestation/">Agent Credential Attestation Protocol (ACAP)</a></td>
+<td>draft-yakung-oauth-agent-attestation</td>
+<td>Attest</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-prakash-aip/">Agent Identity Protocol (AIP): Verifiable Delegation for AI Agent Systems</a></td>
+<td>draft-prakash-aip</td>
+<td>Independent</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/">Agent Passport System (APS): Cryptographic Identity, Faceted Authority Attenuation, and Governance for AI Agent Systems</a></td>
+<td>draft-pidlisnyi-aps</td>
+<td>AEOESS</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h4 id="others">Others</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Document Name</th>
+<th>Authors' Affiliation</th>
+<th>Date of v00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-sharif-agent-payment-trust/">Trust Scoring and Identity Verification for Autonomous AI Agent Payment Transactions</a></td>
+<td>draft-sharif-agent-payment-trust</td>
+<td>CyberSecAI Ltd</td>
+<td>2026-03</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-wang-aap/">AAP: Agent Accountability Protocol</a></td>
+<td>draft-wang-aap</td>
+<td>HJS Foundation Ltd.</td>
+<td>2026-03</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tc28sc42">TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会</h3>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>《人工智能智能体互联 第1部分：总体架构（征求意见稿）》</td>
+</tr>
+<tr>
+<td>2</td>
+<td>《人工智能智能体互联 第2部分：身份码（征求意见稿）》</td>
+</tr>
+<tr>
+<td>3</td>
+<td>《人工智能智能体互联 第3部分：身份管理（征求意见稿）》</td>
+</tr>
+<tr>
+<td>4</td>
+<td>《人工智能智能体互联 第4部分：智能体描述（征求意见稿）》</td>
+</tr>
+<tr>
+<td>5</td>
+<td>《人工智能智能体互联 第5部分：智能体发现（征求意见稿）》</td>
+</tr>
+<tr>
+<td>6</td>
+<td>《人工智能智能体互联 第6部分：智能体交互（征求意见稿）》</td>
+</tr>
+<tr>
+<td>7</td>
+<td>《人工智能智能体互联 第7部分：智能体工具调用（征求意见稿）》</td>
+</tr>
+</tbody>
+</table>
+<h2 id="white-papers">White Papers</h2>
+<table>
+<thead>
+<tr>
+<th>White Paper Title</th>
+<th>Publication Date</th>
+<th>Publishing Organization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://reportify-1252068037.cos.ap-beijing.myqcloud.com/media/production/s_36c9da75_36c9da759b0f9f8a6c2eeb062f922325.pdf">智能体通信网络 (ACN) 白皮书</a></td>
+<td>2024-06</td>
+<td>中国移动</td>
+</tr>
+<tr>
+<td><a href="https://www.10086.cn/aboutus/news/groupnews/index_detail_51934.html">AI-agent Communication Network White Paper Release</a></td>
+<td>2025-03</td>
+<td>China Mobile, KPN, KT and other 16 partners</td>
+</tr>
+<tr>
+<td><a href="https://juejin.cn/post/7505675796907851803">Agent Network Protocol (ANP) 技术白皮书</a></td>
+<td>2025-05</td>
+<td>ANP开源技术社区</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2508.00007">Agent Network Protocol Technical White Paper</a></td>
+<td>2025-07</td>
+<td>Agent Network Protocol (ANP) Open Source Technology Community</td>
+</tr>
+<tr>
+<td><a href="https://max.book118.com/html/2025/0805/6043155221011211.shtm?from=search&amp;index=1">2025年智能体互联网络白皮书</a></td>
+<td>2025-07</td>
+<td>中国移动</td>
+</tr>
+<tr>
+<td><a href="https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Internet_of_Agents_Whitepaper.pdf">The Internet of Agents</a></td>
+<td>2025-08</td>
+<td>Cisco Outshift</td>
+</tr>
+<tr>
+<td><a href="https://www.sgpjbg.com.cn/baogao/873070.html">AI Agent通信网关技术研究报告</a></td>
+<td>2025-08</td>
+<td>中国信通院、华为、中国移动、中国电信、中国联通</td>
+</tr>
+<tr>
+<td><a href="https://www.sgpjbg.com.cn/baogao/873212.html">智能体互联网白皮书</a></td>
+<td>2025-08</td>
+<td>中国联通研究院、下一代互联网宽带业务应用国家工程研究中心</td>
+</tr>
+<tr>
+<td><a href="https://www.sgpjbg.com.cn/baogao/931371.html">智能体互联网技术白皮书</a></td>
+<td>2025-09</td>
+<td>中国移动</td>
+</tr>
+<tr>
+<td><a href="https://e.huawei.com/cn/documents/campaign/enterprise-network/f68c876e9fd743b9b9c6cd1dfb938dc4">智能体互联网架构与关键技术报告</a></td>
+<td>2025-10</td>
+<td>华为、中国信通院、中国银联等</td>
+</tr>
+</tbody>
+</table>
+<h2 id="communities-or-projects">Communities or Projects</h2>
+<table>
+<thead>
+<tr>
+<th>Project Name</th>
+<th>Initiator</th>
+<th>Github/GitCode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.openbmb.cn/home">OpenBMB/IoA</a></td>
+<td>Tsinghua University</td>
+<td>https://github.com/OpenBMB/IoA</td>
+</tr>
+<tr>
+<td><a href="https://agntcy.org/">AGNTCY</a></td>
+<td>Cisco Outshift</td>
+<td>https://github.com/agntcy</td>
+</tr>
+<tr>
+<td><a href="https://www.agent-network-protocol.com/">Agent Network Protocol (ANP)</a></td>
+<td>常高伟</td>
+<td>https://github.com/agent-network-protocol</td>
+</tr>
+<tr>
+<td><a href="https://aip.openatom.tech/">智能体互联开源社区</a></td>
+<td>北京邮电大学、电子标准院</td>
+<td>https://atomgit.com/AIP-PUB</td>
+</tr>
+<tr>
+<td><a href="https://github.com/a2aproject/a2a-samples/blob/main/extensions/agp/spec.md">Agent Gateway Protocol (AGP)</a></td>
+<td>Google</td>
+<td>https://github.com/a2aproject/a2a-samples/tree/main/extensions/agp</td>
+</tr>
+<tr>
+<td><a href="https://amtp-protocol.org/">Agent Message Transfer Protocol (AMTP)</a></td>
+<td>agentry</td>
+<td>https://github.com/amtp-protocol/agentry</td>
+</tr>
+<tr>
+<td><a href="https://datatracker.ietf.org/doc/draft-agent-gw/">OpenGateway</a></td>
+<td>清华大学</td>
+<td>https://github.com/anAtheist987/OpenGateway</td>
+</tr>
+<tr>
+<td><a href="https://www.ccsa.org.cn/station/?title=TC3&amp;index=0&amp;menuIndex=1">CCSA TC3 WG3 SWG2: 智能体网络</a></td>
+<td>中国通信标准化协会</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="https://www.ccsa.org.cn/station/?title=TC5&amp;index=0&amp;menuIndex=3">CCSA TC5 WG12 SWG1: 智能体通信网络</a></td>
+<td>中国通信标准化协会</td>
+<td>NA</td>
+</tr>
+</tbody>
+</table>
+    
+    <!-- 页脚信息 -->
+    <footer style="margin-top: 3em; padding-top: 1em; border-top: 1px solid #ccc; font-size: 0.9em; color: #666; text-align: center;">
+        Github Repo: <a href="https://github.com/XiaoTianCan/Internet-of-Agents">XiaoTianCan/Internet-of-Agents</a>, Launch Date: 2026-01-27,  Last Updated: 2026-04-10
+    </footer>
 </body>
 </html>
+    
