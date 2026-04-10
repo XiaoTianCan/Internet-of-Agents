@@ -29,6 +29,7 @@
 | [Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol](https://arxiv.org/abs/2512.14737) | 2025-12 | BJUT | arXiv |
 | [Designing The Internet of Agents: A Framework for Trustworthy, Transparent, and Collaborative Human-Agent Interaction (HAX)](https://arxiv.org/abs/2512.11979) | 2025-12 | Outshift by Cisco | arXiv |
 | [Agent-OSI: A Layered Protocol Stack Toward a Decentralized Internet of Agents](https://arxiv.org/abs/2602.13795) | 2026-02 |  Shenzhen University | arXiv |
+| [The Internet of Physical AI Agents: Interoperability, Longevity, and the Cost of Getting It Wrong](https://arxiv.org/abs/2603.15900) | 2026-03 | EURECOM, Ericsson Silicon Valley | arXiv |
 | [AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents](https://arxiv.org/abs/2604.06696) | 2026-04 | USTB, China Telecom, UCAS | arXiv |
 
 ## Standard Proposals
