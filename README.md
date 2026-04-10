@@ -7,17 +7,29 @@
 | [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://arxiv.org/abs/2407.07061) | 2024-07 | Tsinghua University, Peking University, Beijing University of Posts and Telecommunications, Tencent | arXiv |
 | [A Scalable Communication Protocol for Networks of Large Language Models](https://arxiv.org/abs/2410.11905) | 2024-10 | University of Oxford | arXiv |
 | [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://openreview.net/pdf?id=o1Et3MogPw) | 2025-01 | Tsinghua University, Peking University, Beijing University of Posts and Telecommunications, Tencent | International Conference on Learning Representations (ICLR) |
+| [Coral Protocol: Open Infrastructure Connecting The Internet of Agents](https://arxiv.org/abs/2505.00749) | 2025-03 | CoralProtocol | arXiv |
+| [Beyond DNS: Unlocking the Internet of AI Agents via the NANDA Index and Verified AgentFacts](https://arxiv.org/abs/2507.14263) | 2025-03 | MIT, Akamai, Cisco, TCS, Dell, etc. | arXiv |
 | [A Survey of AI Agent Protocols](https://arxiv.org/abs/2504.16736) | 2025-04 | Shanghai Jiao Tong University Team | arXiv |
 | [Agent Name Service (ANS): A Universal Directory for Secure AI Agent Discovery and Interoperability](https://arxiv.org/abs/2505.10609) | 2025-05 | DistributedApps.ai, Amazon Web Services, Intuit, Cisco Systems | arXiv |
+| [ACPs: Agent Collaboration Protocols for the Internet of Agents](https://arxiv.org/abs/2505.13523) | 2025-05 | Beijing University of Posts and Telecommunications | arXiv |
+| [Security of Internet of Agents: Attacks and Countermeasures](https://arxiv.org/abs/2505.08807) | 2025-05 | Xi’an Jiaotong University | arXiv |
+| [Agent Network Protocol Technical White Paper](https://arxiv.org/abs/2508.00007) | 2025-07 | ANP Open Source Technology Community | arXiv |
+| [Upgrade or Switch: Do We Need a Next-Gen Trusted Architecture for the Internet of AI Agents?](https://arxiv.org/abs/2506.12003) | 2025-07 | - | arXiv |
+| [Whispering Agents: An Event-driven Covert Communication Protocol For the Internet of Agents](https://arxiv.org/abs/2508.02188) | 2025-08 | Beijing University of Posts and Telecommunications | arXiv |
 | [AI Agent Communication from Internet Architecture Perspective: Challenges and Opportunities](https://arxiv.org/pdf/2509.02317) | 2025-09 | Zhongguancun Laboratory, Tsinghua University | arXiv |
 | [Internet 3.0: Architecture for a Web-of-Agents with it's Algorithm for Ranking Agents](https://arxiv.org/pdf/2509.04979) | 2025-09 | New York University | arXiv |
 | [The AGNTCY Agent Directory Service: Architecture and Implementation](https://arxiv.org/abs/2509.18787) | 2025-09 | Cisco Systems | arXiv |
+| [FlexNGIA 2.0: Redesigning the Internet with Agentic AI -- Protocols, Services, and Traffic Engineering Designed, Deployed, and Managed by AI](https://arxiv.org/abs/2509.02124) | 2025-09 | FlexNGIA, University of Sousse | arXiv |
 | [Internet of Agents: Fundamentals, Applications, and Challenges](https://arxiv.org/pdf/2505.07176) | 2025-10 | Xi’an Jiaotong University | arXiv |
 | [智能体互联网:概念、架构及关键技术](https://www.telecomsci.com/zh/article/doi/10.11959/j.issn.1000-0801.2025221/) | 2025-10 | 中国移动 | 电信科学 (Telecommunications Science) |
 | [Agent Discovery in Internet of Agents: Challenges and Solutions](https://arxiv.org/pdf/2511.19113) | 2025-11 | Xi’an Jiaotong University | arXiv |
 | [A Layered Protocol Architecture for the Internet of Agents](https://arxiv.org/abs/2511.19699) | 2025-11 | Cisco Systems | arXiv |
-| [AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents](https://arxiv.org/abs/2604.06696) | 2026-03 | USTB, China Telecom, UCAS | arXiv |
-
+| [Toward a Safe Internet of Agents](https://arxiv.org/abs/2512.00520) | 2025-11 | Chinese University of Hong Kong | arXiv |
+| [Graph Representation-based Model Poisoning on the Heterogeneous Internet of Agents](https://arxiv.org/abs/2511.07176) | 2025-11 | University of Cambridge, CISTER Research Centre, Guizhou University, Koc University | arXiv |
+| [Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol](https://arxiv.org/abs/2512.14737) | 2025-12 | BJUT | arXiv |
+| [Designing The Internet of Agents: A Framework for Trustworthy, Transparent, and Collaborative Human-Agent Interaction (HAX)](https://arxiv.org/abs/2512.11979) | 2025-12 | Outshift by Cisco | arXiv |
+| [Agent-OSI: A Layered Protocol Stack Toward a Decentralized Internet of Agents](https://arxiv.org/abs/2602.13795) | 2026-02 |  Shenzhen University | arXiv |
+| [AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents](https://arxiv.org/abs/2604.06696) | 2026-04 | USTB, China Telecom, UCAS | arXiv |
 
 ## Standard Proposals
 
