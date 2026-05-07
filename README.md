@@ -40,6 +40,7 @@
 
 | Title | Document Name | Authors' Affiliation | Date of v00 |
 | ---- | ---- | ---- | ---- |
+| [AI Agent protocols for 6G systems](https://datatracker.ietf.org/doc/draft-stephan-ai-agent-6g/) | draft-stephan-ai-agent-6g | Orange, Deutsche Telekom, Telefonica, China Mobile, Huawei | 2025-07 |
 | [Agent Networking Scenarios of Digital Banking](https://datatracker.ietf.org/doc/draft-men-rtgwg-agent-networking-in-digibank/) | draft-men-rtgwg-agent-networking-in-digibank | UnionPay, Huawei | 2025-11 |
 | [Requirements for Agent Gateway](https://datatracker.ietf.org/doc/draft-liu-rtgwg-agent-gateway-requirements/) | draft-liu-rtgwg-agent-gateway-requirements | Huawei, CAICT | 2025-11 |
 | [Enhanced A2A Requirements for Agents Collobration in Enterprise](https://datatracker.ietf.org/doc/draft-zgsgl-dispatch-a2a-requirements-enterprise/) | draft-zgsgl-dispatch-a2a-requirements-enterprise | Huawei, CAICT | 2025-11 |
@@ -135,6 +136,7 @@
 | [MOQ Transport for Agent Protocols](https://datatracker.ietf.org/doc/draft-nandakumar-ai-agent-moq-transport/) | draft-nandakumar-ai-agent-moq-transport | Cisco Systems | 2026-03 |
 | [Agent Protocol over MoQ](https://datatracker.ietf.org/doc/draft-liu-agent-protocol-over-moq/) | draft-liu-agent-protocol-over-moq | Alibaba Cloud, Cisco Systems | 2026-03 |
 | [Agent Metadata Synchronization Protocol](https://datatracker.ietf.org/doc/draft-liu-agent-metadata-sync-protocol/) | draft-liu-agent-metadata-sync-protocol | Huawei, China Unicom | 2026-03 |
+| [Agent Attachment Protocol](https://datatracker.ietf.org/doc/draft-dunbar-agent-attachment/) | draft-dunbar-agent-attachment | Futurewei, Oracle | 2026-03 |
 | [Agent Transfer Protocol (ATP)](https://datatracker.ietf.org/doc/draft-li-atp/) | draft-li-atp | Nankai University | 2026-03 |
 | [AGTP Standard Extended Method Vocabulary](https://datatracker.ietf.org/doc/draft-hood-agtp-standard-methods/) | draft-hood-agtp-standard-methods | Nomotic, Inc. | 2026-03 |
 | [Agent Internet Protocol (AIP)](https://datatracker.ietf.org/doc/draft-song-anp-aip/) | draft-song-anp-aip | HKUST, CUHK | 2026-03 |
