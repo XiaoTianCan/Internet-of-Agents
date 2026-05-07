@@ -64,6 +64,7 @@
 | [Ontology-based Semantic Interaction for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-dmsc-ioa-semantic-interaction/) | draft-zhang-dmsc-ioa-semantic-interaction | AsiaInfo Technologies (China) Inc. | 2026-02 |
 | [Cross-Domain Interoperability Framework for AI Agent Collaboration](https://datatracker.ietf.org/doc/draft-cui-dmsc-agent-cdi/) | draft-cui-dmsc-agent-cdi | Tsinghua University | 2026-02 |
 | [Agent Communication Gateway for Semantic Routing and Working Memory](https://datatracker.ietf.org/doc/draft-agent-gw/) | draft-agent-gw | Tsinghua University, Beijing University of Posts and Telecommunications | 2026-02 |
+| [Using LISP as a Network Substrate for AI Agent Communication](https://datatracker.ietf.org/doc/draft-wang-lisp-ai-agent/) | draft-wang-lisp-ai-agent | China Telecom | 2026-02 |
 | [Agentic Network Architecture and Protocol for Supporting Agent Interconnection Communication and Multi-level Inference](https://datatracker.ietf.org/doc/draft-chuyi-nmrg-agentic-network-inference/) | draft-chuyi-nmrg-agentic-network-inference | China Mobile | 2026-03 |
 | [Considerations for AI Agent Communication and Networking in Enterprise](https://datatracker.ietf.org/doc/draft-han-agent-comm-enterprise/) | draft-han-agent-comm-enterprise | China Unicom | 2026-03 |
 | [Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) | draft-eckert-catalist-acip-framework | Futurewei | 2026-03 |
@@ -80,6 +81,10 @@
 | [AGTP Agent Certificate Extension](https://datatracker.ietf.org/doc/draft-hood-agtp-agent-cert/) | draft-hood-agtp-agent-cert | Nomotic, Inc. | 2026-03 |
 | [AGTP Web3 Bridge Specification](https://datatracker.ietf.org/doc/draft-hood-agtp-web3-bridge/) | draft-hood-agtp-web3-bridge | Nomotic, Inc. | 2026-03 |
 | [OpenID Connect Agent Identity Claims for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-openid-agent-identity/) | draft-sharif-openid-agent-identity | CyberSecAI Ltd | 2026-03 |
+| [Problem Statement for Human-Anchored Agent Identity, Delegation, and Provenance](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-problem-statement/) | draft-beyer-agent-identity-problem-statement | Independent | 2026-04 |
+| [Architecture for Human-Anchored Agent Identity, Delegation, and Provenance](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-architecture/) | draft-beyer-agent-identity-architecture | Independent | 2026-04 |
+| [Agentic Identity and Provenance over Avian Carriers (AIPAC)](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-avian-carriers/) | draft-beyer-agent-identity-avian-carriers | Independent | 2026-04 |
+| [Agent Identity Framework: Trust and Identity for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-agent-identity-framework/) | draft-sharif-agent-identity-framework | CyberSecAI Ltd | 2026-04 |
 
 #### Agent Registry and Discovery
 
