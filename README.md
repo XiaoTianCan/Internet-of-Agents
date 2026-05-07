@@ -49,8 +49,9 @@
 | [Capabilities and Future Requirements of IPv6 for the Internet of Agents (IoA)](https://datatracker.ietf.org/doc/draft-yc-ipv6-for-ioa/) | draft-yc-ipv6-for-ioa | China Mobile | 2026-03 |
 | [Routing Considerations in Agentic Network](https://datatracker.ietf.org/doc/draft-du-catalist-routing-considerations/) | draft-du-catalist-routing-considerations | China Mobile | 2026-03 |
 | [Problem Statement and Requirements for Dynamic Multi-agent Secured Collaboration (DMSC)](https://datatracker.ietf.org/doc/draft-song-dmsc-problem-statement/) | draft-song-dmsc-problem-statement | Alibaba Cloud | 2026-03 |
+| [Agentic Intent Network (AIN): Applicability and Deployment Scenarios](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-deployment/) | draft-feng-nmrg-ain-deployment | Ruijie Networks | 2026-04 |
 
-#### Framework
+#### Framework/Architecture
 
 | Title | Document Name | Authors' Affiliation | Date of v00 |
 | ---- | ---- | ---- | ---- |
@@ -68,6 +69,7 @@
 | [Agentic Network Architecture and Protocol for Supporting Agent Interconnection Communication and Multi-level Inference](https://datatracker.ietf.org/doc/draft-chuyi-nmrg-agentic-network-inference/) | draft-chuyi-nmrg-agentic-network-inference | China Mobile | 2026-03 |
 | [Considerations for AI Agent Communication and Networking in Enterprise](https://datatracker.ietf.org/doc/draft-han-agent-comm-enterprise/) | draft-han-agent-comm-enterprise | China Unicom | 2026-03 |
 | [Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) | draft-eckert-catalist-acip-framework | Futurewei | 2026-03 |
+| [Agentic Intent Network (AIN): A Routing-Based Architecture for AI Agent Coordination at Scale](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-architecture/) | draft-feng-nmrg-ain-architecture | Ruijie Networks | 2026-04 |
 
 #### Agent Identity
 
@@ -85,6 +87,12 @@
 | [Architecture for Human-Anchored Agent Identity, Delegation, and Provenance](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-architecture/) | draft-beyer-agent-identity-architecture | Independent | 2026-04 |
 | [Agentic Identity and Provenance over Avian Carriers (AIPAC)](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-avian-carriers/) | draft-beyer-agent-identity-avian-carriers | Independent | 2026-04 |
 | [Agent Identity Framework: Trust and Identity for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-agent-identity-framework/) | draft-sharif-agent-identity-framework | CyberSecAI Ltd | 2026-04 |
+| [Vorim Agent Identity Protocol (VAIP)](https://datatracker.ietf.org/doc/draft-nyantakyi-vaip-agent-identity/) | draft-nyantakyi-vaip-agent-identity | Vorim AI | 2026-04 |
+| [Agent Public Key Infrastructure (APKI): Certificate-Based Identity and Trust for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-apki-agent-pki/) | draft-sharif-apki-agent-pki | CyberSecAI Ltd | 2026-04 |
+| [Agent Identity Registry System: A Federated Architecture for Hardware-Anchored Identity of Autonomous Entities](https://datatracker.ietf.org/doc/draft-drake-agent-identity-registry/) | draft-drake-agent-identity-registry | 1id.com | 2026-04 |
+| [Agent Identity Protocol (AIP): Decentralized Identity and Delegation for AI Agents](https://datatracker.ietf.org/doc/draft-singla-agent-identity-protocol/) | draft-singla-agent-identity-protocol | Independent | 2026-04 |
+| [SAIP: Signed Agent Identity Protocol](https://datatracker.ietf.org/doc/draft-jovancevic-saip/) | draft-jovancevic-saip | SKGO, IKT Support | 2026-04 |
+| [AGTP Merchant Identity and Agentic Commerce Binding](https://datatracker.ietf.org/doc/draft-hood-agtp-merchant-identity/) | draft-hood-agtp-merchant-identity | independent | 2026-04 |
 
 #### Agent Registry and Discovery
 
@@ -108,6 +116,8 @@
 | [Agent Description Protocol (ADP)](https://datatracker.ietf.org/doc/draft-song-anp-adp/) | draft-song-anp-adp | HKUST, CUHK | 2026-03 |
 | [The "mcp" URI Scheme and MCP Server Discovery Mechanism](https://datatracker.ietf.org/doc/draft-serra-mcp-discovery-uri/) | draft-serra-mcp-discovery-uri | Mumble Group | 2026-03 |
 | [AINS: AInternet Name Service - Agent Discovery and Trust Resolution Protocol](https://datatracker.ietf.org/doc/draft-vandemeent-ains-discovery/) | draft-vandemeent-ains-discovery | Humotica | 2026-03 |
+| [Gateway Capability Directory and Synchronization for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-dmsc-gateway-directory-sync/) | draft-zhang-dmsc-gateway-directory-sync | AsiaInfo | 2026-04 |
+| [AgentCard: A Framework-Neutral Identity and Capability Declaration Format for Agent-to-Agent Communication](https://datatracker.ietf.org/doc/draft-aevum-agentcard/) | draft-aevum-agentcard | Aevum Network | 2026-04 |
 
 #### Protocol
 
@@ -131,6 +141,9 @@
 | [Agent Invocation Transport Protocol (AITP)](https://datatracker.ietf.org/doc/draft-song-anp-aitp/) | draft-song-anp-aitp | HKUST, CUHK | 2026-03 |
 | [Agent Transport Protocol: Asynchronous Store-and-Forward Messaging for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-agent-transport-protocol/) | draft-sharif-agent-transport-protocol | CyberSecAI Ltd | 2026-03 |
 | [ATTP: Agent Trust Transport Protocol for Secure Agent-to-Server Communication](https://datatracker.ietf.org/doc/draft-sharif-attp-agent-trust-transport/) | draft-sharif-attp-agent-trust-transport | CyberSecAI Ltd | 2026-03 |
+| [Agent Transfer Protocol (AGTP)](https://datatracker.ietf.org/doc/draft-hood-independent-agtp/) | draft-hood-independent-agtp | independent | 2026-04 |
+| [Agentic Grammar and Interface Specification (AGIS)](https://datatracker.ietf.org/doc/draft-hood-independent-agis/) | draft-hood-independent-agis | independent | 2026-04 |
+| [AGTP Session Protocol](https://datatracker.ietf.org/doc/draft-hood-agtp-session/) | draft-hood-agtp-session | independent | 2026-04 |
 
 #### Security
 
@@ -143,6 +156,9 @@
 | [Agent Credential Attestation Protocol (ACAP)](https://datatracker.ietf.org/doc/draft-yakung-oauth-agent-attestation/) | draft-yakung-oauth-agent-attestation | Attest | 2026-03 |
 | [Agent Identity Protocol (AIP): Verifiable Delegation for AI Agent Systems](https://datatracker.ietf.org/doc/draft-prakash-aip/) | draft-prakash-aip | Independent | 2026-03 |
 | [Agent Passport System (APS): Cryptographic Identity, Faceted Authority Attenuation, and Governance for AI Agent Systems](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/) | draft-pidlisnyi-aps | AEOESS | 2026-03 |
+| [Security Requirements for Intent-based Agent Routing](https://datatracker.ietf.org/doc/draft-yan-iba-routing-security-requirements/) | draft-yan-iba-routing-security-requirements | Chinese Academy of Sciences, Huawei | 2026-04 |
+| [Agent Route Origin Authorization (AgentROA): A Cryptographic Policy Enforcement Framework for AI Agent Actions over the Model Context Protocol (MCP)](https://datatracker.ietf.org/doc/draft-nivalto-agentroa-route-authorization/) | draft-nivalto-agentroa-route-authorization | Nivalto | 2026-04 |
+| [ATTP: Agent Trust Transport Protocol](https://datatracker.ietf.org/doc/draft-sharif-attp/) | draft-sharif-attp | CyberSecAI | 2026-04 |
 
 #### Others
 
@@ -150,6 +166,8 @@
 | ---- | ---- | ---- | ---- |
 | [Trust Scoring and Identity Verification for Autonomous AI Agent Payment Transactions](https://datatracker.ietf.org/doc/draft-sharif-agent-payment-trust/) | draft-sharif-agent-payment-trust | CyberSecAI Ltd | 2026-03 |
 | [AAP: Agent Accountability Protocol](https://datatracker.ietf.org/doc/draft-wang-aap/) | draft-wang-aap | HJS Foundation Ltd. | 2026-03 |
+| [Agent Event Behaviour Analysis (AEBA): A Framework for Behavioural Security Monitoring of Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-aeba/) | draft-sharif-aeba | CyberSecAI | 2026-04 |
+| [ADRP: Agent Dispute Resolution Protocol](https://datatracker.ietf.org/doc/draft-stone-adrp/) | draft-stone-adrp | SwarmSync.AI | 2026-04 |
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
 
