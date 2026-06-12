@@ -51,6 +51,8 @@
 | [Routing Considerations in Agentic Network](https://datatracker.ietf.org/doc/draft-du-catalist-routing-considerations/) | draft-du-catalist-routing-considerations | China Mobile | 2026-03 |
 | [Problem Statement and Requirements for Dynamic Multi-agent Secured Collaboration (DMSC)](https://datatracker.ietf.org/doc/draft-song-dmsc-problem-statement/) | draft-song-dmsc-problem-statement | Alibaba Cloud | 2026-03 |
 | [Agentic Intent Network (AIN): Applicability and Deployment Scenarios](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-deployment/) | draft-feng-nmrg-ain-deployment | Ruijie Networks | 2026-04 |
+| [Agentic AI Use Cases and Requirements](https://datatracker.ietf.org/doc/draft-agentic-ai-usecases-requirements/) | draft-agentic-ai-usecases-requirements | Nokia, China Mobile | 2026-05 |
+| [Terminology for Networking Infrastructure in the Internet of Agents](https://datatracker.ietf.org/doc/draft-wang-dmsc-terminology-ioa-networking/) | draft-wang-dmsc-terminology-ioa-networking | Nokia, China Mobile | 2026-05 |
 
 #### Framework/Architecture
 
@@ -119,6 +121,9 @@
 | [AINS: AInternet Name Service - Agent Discovery and Trust Resolution Protocol](https://datatracker.ietf.org/doc/draft-vandemeent-ains-discovery/) | draft-vandemeent-ains-discovery | Humotica | 2026-03 |
 | [Gateway Capability Directory and Synchronization for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-dmsc-gateway-directory-sync/) | draft-zhang-dmsc-gateway-directory-sync | AsiaInfo | 2026-04 |
 | [AgentCard: A Framework-Neutral Identity and Capability Declaration Format for Agent-to-Agent Communication](https://datatracker.ietf.org/doc/draft-aevum-agentcard/) | draft-aevum-agentcard | Aevum Network | 2026-04 |
+| [Agent Directory](https://datatracker.ietf.org/doc/draft-jimenez-agent-directory/) | draft-jimenez-agent-directory | Ericsson | 2026-05 |
+| [Metadata and Query Profile for Efficient Agent Discovery](https://datatracker.ietf.org/doc/draft-xu-efficient-agent-discovery-profile/) | draft-xu-efficient-agent-discovery-profile | CAICT | 2026-05 |
+| [Agent Discovery Protocol (ADP)](https://datatracker.ietf.org/doc/draft-pro-adp-agent-discovery/) | draft-pro-adp-agent-discovery | AI Pair | 2026-06 |
 
 #### Protocol
 
@@ -146,6 +151,11 @@
 | [Agent Transfer Protocol (AGTP)](https://datatracker.ietf.org/doc/draft-hood-independent-agtp/) | draft-hood-independent-agtp | independent | 2026-04 |
 | [Agentic Grammar and Interface Specification (AGIS)](https://datatracker.ietf.org/doc/draft-hood-independent-agis/) | draft-hood-independent-agis | independent | 2026-04 |
 | [AGTP Session Protocol](https://datatracker.ietf.org/doc/draft-hood-agtp-session/) | draft-hood-agtp-session | independent | 2026-04 |
+| [AGTP-API: Verbs, Paths, Endpoints, and Synthesis](https://datatracker.ietf.org/doc/draft-hood-agtp-api/) | draft-hood-agtp-api | independent | 2026-05 |
+| [Agent Transaction Protocol (ATP)](https://datatracker.ietf.org/doc/draft-bates-atp/) | draft-bates-atp | SVT Robotics | 2026-05 |
+| [AGTP Communication Protocol](https://datatracker.ietf.org/doc/draft-hood-agtp-communication/) | draft-hood-agtp-communication | independent | 2026-05 |
+| [Principal Agent Protocol (PAP)](https://datatracker.ietf.org/doc/draft-baur-pap/) | draft-baur-pap | Baur Software | 2026-05 |
+| [An Agent-Channel Frame for Identity-Keyed Fan-Out Delivery to Concurrent Sessions](https://datatracker.ietf.org/doc/draft-morrison-agent-channel-fan-out/) | draft-morrison-agent-channel-fan-out | Alter Meridian Pty Ltd | 2026-05 |
 
 #### Security
 
@@ -161,6 +171,8 @@
 | [Security Requirements for Intent-based Agent Routing](https://datatracker.ietf.org/doc/draft-yan-iba-routing-security-requirements/) | draft-yan-iba-routing-security-requirements | Chinese Academy of Sciences, Huawei | 2026-04 |
 | [Agent Route Origin Authorization (AgentROA): A Cryptographic Policy Enforcement Framework for AI Agent Actions over the Model Context Protocol (MCP)](https://datatracker.ietf.org/doc/draft-nivalto-agentroa-route-authorization/) | draft-nivalto-agentroa-route-authorization | Nivalto | 2026-04 |
 | [ATTP: Agent Trust Transport Protocol](https://datatracker.ietf.org/doc/draft-sharif-attp/) | draft-sharif-attp | CyberSecAI | 2026-04 |
+| [AGTP Trust and Verification Specification](https://datatracker.ietf.org/doc/draft-hood-agtp-trust/) | draft-hood-agtp-trust | independent | 2026-05 |
+| [AGTP Identifier Chain](https://datatracker.ietf.org/doc/draft-hood-agtp-identifiers/) | draft-hood-agtp-identifiers | independent | 2026-05 |
 
 #### Others
 
@@ -170,6 +182,7 @@
 | [AAP: Agent Accountability Protocol](https://datatracker.ietf.org/doc/draft-wang-aap/) | draft-wang-aap | HJS Foundation Ltd. | 2026-03 |
 | [Agent Event Behaviour Analysis (AEBA): A Framework for Behavioural Security Monitoring of Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-aeba/) | draft-sharif-aeba | CyberSecAI | 2026-04 |
 | [ADRP: Agent Dispute Resolution Protocol](https://datatracker.ietf.org/doc/draft-stone-adrp/) | draft-stone-adrp | SwarmSync.AI | 2026-04 |
+| [Verifiable Usage Accounting for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-ioa-usage-accounting/) | draft-zhang-ioa-usage-accounting | AsiaInfo Technologies (China) Inc. | 2026-05 |
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
 
