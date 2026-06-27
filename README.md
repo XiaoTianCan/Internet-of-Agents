@@ -53,6 +53,8 @@
 | [Agentic Intent Network (AIN): Applicability and Deployment Scenarios](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-deployment/) | draft-feng-nmrg-ain-deployment | Ruijie Networks | 2026-04 |
 | [Agentic AI Use Cases and Requirements](https://datatracker.ietf.org/doc/draft-agentic-ai-usecases-requirements/) | draft-agentic-ai-usecases-requirements | Nokia, China Mobile | 2026-05 |
 | [Terminology for Networking Infrastructure in the Internet of Agents](https://datatracker.ietf.org/doc/draft-wang-dmsc-terminology-ioa-networking/) | draft-wang-dmsc-terminology-ioa-networking | Nokia, China Mobile | 2026-05 |
+| [Agent Gateway Scenario Analysis and Functional Requirements for Cross-Domain Multi-Agent Communication](https://datatracker.ietf.org/doc/draft-miao-agw-cross-domain-scenario-analysis/) | draft-miao-agw-cross-domain-scenario-analysis | ZTE | 2026-06 |
+| [Taxonomy for Agentic AI Use Cases](https://datatracker.ietf.org/doc/draft-scrm-aiproto-usecases/) | draft-scrm-aiproto-usecases | Deutsche Telekom, Nokia, Telefonica, Qualcomm Europe | 2026-06 |
 
 #### Framework/Architecture
 
@@ -73,6 +75,7 @@
 | [Considerations for AI Agent Communication and Networking in Enterprise](https://datatracker.ietf.org/doc/draft-han-agent-comm-enterprise/) | draft-han-agent-comm-enterprise | China Unicom | 2026-03 |
 | [Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) | draft-eckert-catalist-acip-framework | Futurewei | 2026-03 |
 | [Agentic Intent Network (AIN): A Routing-Based Architecture for AI Agent Coordination at Scale](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-architecture/) | draft-feng-nmrg-ain-architecture | Ruijie Networks | 2026-04 |
+| [AI Agent Interoperable Protocol Framework (AIPF)](https://datatracker.ietf.org/doc/draft-zahed-agent-comm-framework/) | draft-zahed-agent-comm-framework | Nokia, China Mobile, Alibaba Cloud | 2026-06 |
 
 #### Agent Identity
 
@@ -96,6 +99,7 @@
 | [Agent Identity Protocol (AIP): Decentralized Identity and Delegation for AI Agents](https://datatracker.ietf.org/doc/draft-singla-agent-identity-protocol/) | draft-singla-agent-identity-protocol | Independent | 2026-04 |
 | [SAIP: Signed Agent Identity Protocol](https://datatracker.ietf.org/doc/draft-jovancevic-saip/) | draft-jovancevic-saip | SKGO, IKT Support | 2026-04 |
 | [AGTP Merchant Identity and Agentic Commerce Binding](https://datatracker.ietf.org/doc/draft-hood-agtp-merchant-identity/) | draft-hood-agtp-merchant-identity | independent | 2026-04 |
+| [Self-Certifying Identity and Capability-Based Delegation for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-duda-agent-id-framework/) | draft-duda-agent-id-framework | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG; Huawei | 2026-06 |
 
 #### Agent Registry and Discovery
 
@@ -173,6 +177,7 @@
 | [ATTP: Agent Trust Transport Protocol](https://datatracker.ietf.org/doc/draft-sharif-attp/) | draft-sharif-attp | CyberSecAI | 2026-04 |
 | [AGTP Trust and Verification Specification](https://datatracker.ietf.org/doc/draft-hood-agtp-trust/) | draft-hood-agtp-trust | independent | 2026-05 |
 | [AGTP Identifier Chain](https://datatracker.ietf.org/doc/draft-hood-agtp-identifiers/) | draft-hood-agtp-identifiers | independent | 2026-05 |
+| [Security Considerations and Requirements for Intent-Based Requests in Agentic Systems](https://datatracker.ietf.org/doc/draft-jiang-intent-security/) | draft-jiang-intent-security | Huawei | 2026-06 |
 
 #### Others
 
