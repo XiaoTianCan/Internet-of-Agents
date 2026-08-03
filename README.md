@@ -138,6 +138,10 @@
 | [A Dimensional Model for Characterizing AI Agent Protocol Proposals and Their Substrates](https://datatracker.ietf.org/doc/draft-foroughi-agent-protocol-dimensions/) | draft-foroughi-agent-protocol-dimensions | Nokia | 2026-07 |
 | [Model Context Protocol and Agent Skills over Media over QUIC Transport](https://datatracker.ietf.org/doc/draft-jennings-agentproto-mcp-over-moqt/) | draft-jennings-agentproto-mcp-over-moqt | Cisco, Google, Five9 | 2026-07 |
 | [PACE: Protocol for Agent Communication Exchange](https://datatracker.ietf.org/doc/draft-nandakumar-agentproto-moq-pace/) | draft-nandakumar-agentproto-moq-pace | Cisco | 2026-07 |
+| [Internet Agent Communication Protocol](https://datatracker.ietf.org/doc/draft-gebauer-iacp/) | draft-gebauer-iacp | Independent | 2026-06 |
+| [Internet Agent Communication Protocol - DHT](https://datatracker.ietf.org/doc/draft-gebauer-iacp-dht/) | draft-gebauer-iacp-dht | Independent | 2026-07 |
+| [Internet Agent Communication Protocol - EID](https://datatracker.ietf.org/doc/draft-gebauer-iacp-eid/) | draft-gebauer-iacp-eid | Independent | 2026-07 |
+| [Internet Agent Communication Protocol - INTEROP](https://datatracker.ietf.org/doc/draft-gebauer-iacp-interop/) | draft-gebauer-iacp-interop | Independent | 2026-07 |
 | [Internet Agent Communication Protocol - A2ACOM](https://datatracker.ietf.org/doc/draft-gebauer-iacp-a2acom/) | draft-gebauer-iacp-a2acom | Independent | 2026-07 |
 | [Internet Agent Communication Protocol - DHI - ERP](https://datatracker.ietf.org/doc/draft-gebauer-iacp-dhi-erp/) | draft-gebauer-iacp-dhi-erp | Independent | 2026-07 |
 | [Internet Agent Communication Protocol - ECONOMY](https://datatracker.ietf.org/doc/draft-gebauer-iacp-economy/) | draft-gebauer-iacp-economy | Independent | 2026-07 |
