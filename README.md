@@ -100,6 +100,7 @@
 | [SAIP: Signed Agent Identity Protocol](https://datatracker.ietf.org/doc/draft-jovancevic-saip/) | draft-jovancevic-saip | SKGO, IKT Support | 2026-04 |
 | [AGTP Merchant Identity and Agentic Commerce Binding](https://datatracker.ietf.org/doc/draft-hood-agtp-merchant-identity/) | draft-hood-agtp-merchant-identity | independent | 2026-04 |
 | [Self-Certifying Identity and Capability-Based Delegation for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-duda-agent-id-framework/) | draft-duda-agent-id-framework | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG; Huawei | 2026-06 |
+| [AgIS: An Agent Identity System for DNS-Backed Verification of AI and Software Agents](https://datatracker.ietf.org/doc/draft-ayoub-agis-agent-identity-system/) | draft-ayoub-agis-agent-identity-system | EPICORTEK Technologies Inc. | 2026-06 |
 
 #### Agent Registry and Discovery
 
@@ -128,6 +129,10 @@
 | [Agent Directory](https://datatracker.ietf.org/doc/draft-jimenez-agent-directory/) | draft-jimenez-agent-directory | Ericsson | 2026-05 |
 | [Metadata and Query Profile for Efficient Agent Discovery](https://datatracker.ietf.org/doc/draft-xu-efficient-agent-discovery-profile/) | draft-xu-efficient-agent-discovery-profile | CAICT | 2026-05 |
 | [Agent Discovery Protocol (ADP)](https://datatracker.ietf.org/doc/draft-pro-adp-agent-discovery/) | draft-pro-adp-agent-discovery | AI Pair | 2026-06 |
+| [Registration and Discovery Extension for Multi-Model Agents](https://datatracker.ietf.org/doc/draft-zhu-agent-registration-discovery/) | draft-zhu-agent-registration | China Mobile | 2026-07 |
+| [DNS-based Entity-Level Discovery and End-to-End Connection for AI Agents](https://datatracker.ietf.org/doc/draft-ni-agent-entity-discovery/) | draft-ni-agent-entity | Huawei | 2026-07 |
+| [Zero-Configuration Agent Discovery](https://datatracker.ietf.org/doc/draft-jakab-dawn-agent-discovery-mdns/) | draft-jakab-dawn-agent-discovery-mdns | Cisco Systems | 2026-07 |
+| [Discovery of Model Context Protocol Servers via DNS TXT Records](https://datatracker.ietf.org/doc/draft-morrison-mcp-dns/) | draft-morrison-mcp-dns-05 | Alter Meridian Pty Ltd | 2026-07 |
 
 #### Protocol
 
@@ -160,6 +165,15 @@
 | [AGTP Communication Protocol](https://datatracker.ietf.org/doc/draft-hood-agtp-communication/) | draft-hood-agtp-communication | independent | 2026-05 |
 | [Principal Agent Protocol (PAP)](https://datatracker.ietf.org/doc/draft-baur-pap/) | draft-baur-pap | Baur Software | 2026-05 |
 | [An Agent-Channel Frame for Identity-Keyed Fan-Out Delivery to Concurrent Sessions](https://datatracker.ietf.org/doc/draft-morrison-agent-channel-fan-out/) | draft-morrison-agent-channel-fan-out | Alter Meridian Pty Ltd | 2026-05 |
+| [Live Agent Interaction over MoQ](https://datatracker.ietf.org/doc/draft-liu-moq-live-agent-interaction/) | draft-liu-moq-live-agent-interaction | Alibaba Cloud | 2026-06 |
+| [Semantic Layer for AI Agent Gateways in Gateway-mediated Collaboration](https://datatracker.ietf.org/doc/draft-yang-dmsc-gateway-semantic-layer/) | draft-yang-dmsc-gateway | AsiaInfo Technologies (China) Inc., China Telecom | 2026-06 |
+| [A Dimensional Model for Characterizing AI Agent Protocol Proposals and Their Substrates](https://datatracker.ietf.org/doc/draft-foroughi-agent-protocol-dimensions/) | draft-foroughi-agent-protocol-dimensions | Nokia | 2026-07 |
+| [Model Context Protocol and Agent Skills over Media over QUIC Transport](https://datatracker.ietf.org/doc/draft-jennings-agentproto-mcp-over-moqt/) | draft-jennings-agentproto-mcp-over-moqt | Cisco, Google, Five9 | 2026-07 |
+| [PACE: Protocol for Agent Communication Exchange](https://datatracker.ietf.org/doc/draft-nandakumar-agentproto-moq-pace/) | draft-nandakumar-agentproto-moq-pace | Cisco | 2026-07 |
+| [Internet Agent Communication Protocol - A2ACOM](https://datatracker.ietf.org/doc/draft-gebauer-iacp-a2acom/) | draft-gebauer-iacp-a2acom | Leonard Gebauer (Independent, Germany) | 2026-07 |
+| [Internet Agent Communication Protocol - DHI - ERP](https://datatracker.ietf.org/doc/draft-gebauer-iacp-dhi-erp/) | draft-gebauer-iacp-dhi-erp | Leonard Gebauer (Independent, Germany) | 2026-07 |
+| [Internet Agent Communication Protocol - ECONOMY](https://datatracker.ietf.org/doc/draft-gebauer-iacp-economy/) | draft-gebauer-iacp-economy | Leonard Gebauer (Independent, Germany) | 2026-07 |
+| [Offline Delivery and Reachability for Agent-to-Agent Messaging](https://datatracker.ietf.org/doc/draft-chapman-a2a-offline-delivery/) | draft-chapman-a2a-offline | Qwixl | 2026-08 |
 
 #### Security
 
@@ -178,6 +192,7 @@
 | [AGTP Trust and Verification Specification](https://datatracker.ietf.org/doc/draft-hood-agtp-trust/) | draft-hood-agtp-trust | independent | 2026-05 |
 | [AGTP Identifier Chain](https://datatracker.ietf.org/doc/draft-hood-agtp-identifiers/) | draft-hood-agtp-identifiers | independent | 2026-05 |
 | [Security Considerations and Requirements for Intent-Based Requests in Agentic Systems](https://datatracker.ietf.org/doc/draft-jiang-intent-security/) | draft-jiang-intent-security | Huawei | 2026-06 |
+| [Bilateral Attestation of Cross-Organization Agent Actions](https://datatracker.ietf.org/doc/draft-mih-agent-bilateral-attestation/) | draft-mih-agent-bilateral-attestation | Action State Group, Inc. | 2026-07 |
 
 #### Others
 
@@ -188,6 +203,7 @@
 | [Agent Event Behaviour Analysis (AEBA): A Framework for Behavioural Security Monitoring of Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-sharif-aeba/) | draft-sharif-aeba | CyberSecAI | 2026-04 |
 | [ADRP: Agent Dispute Resolution Protocol](https://datatracker.ietf.org/doc/draft-stone-adrp/) | draft-stone-adrp | SwarmSync.AI | 2026-04 |
 | [Verifiable Usage Accounting for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-ioa-usage-accounting/) | draft-zhang-ioa-usage-accounting | AsiaInfo Technologies (China) Inc. | 2026-05 |
+| [Agent Gateway Policy Control Model](https://datatracker.ietf.org/doc/draft-zhao-opsawg-agent-gateway-policy/) | draft-zhao-opsawg-agent-gateway | China Unicom | 2026-07 |
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
 
