@@ -204,6 +204,7 @@
 | [智能体互联网白皮书](https://www.sgpjbg.com.cn/baogao/873212.html) | 2025-08 | 中国联通研究院、下一代互联网宽带业务应用国家工程研究中心 |
 | [智能体互联网技术白皮书](https://www.sgpjbg.com.cn/baogao/931371.html) | 2025-09 | 中国移动 |
 | [智能体互联网架构与关键技术报告](https://e.huawei.com/cn/documents/campaign/enterprise-network/f68c876e9fd743b9b9c6cd1dfb938dc4) | 2025-10 | 华为、中国信通院、中国银联等 |
+| [面向智能互联的网络技术与实践报告V2.0](https://e.huawei.com/cn/documents/campaign/enterprise-network/ec74729e54eb4b66afcd43cc2f023b8d) | 2026-07 | 华为、中国信通院、NIDA等 |
 
 
 ## Communities or Projects
