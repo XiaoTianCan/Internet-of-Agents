@@ -31,6 +31,7 @@
 | [Agents Networking Framework for Enterprise and Broadband](https://datatracker.ietf.org/doc/draft-zlgsgl-rtgwg-agents-networking-framework/) | draft-zlgsgl-rtgwg-agents-networking-framework | Huawei | 2025-11 |
 | [Semantic Routing Architecture for AI Agents Communication](https://datatracker.ietf.org/doc/draft-li-semantic-routing-architecture/) | draft-li-semantic-routing-architecture | China Telecom | 2025-11 |
 | [Agent Gateway Intercommunication Framework](https://datatracker.ietf.org/doc/draft-han-rtgwg-agent-gateway-intercomm-framework/) | draft-han-rtgwg-agent-gateway-intercomm-framework | China Unicom | 2025-11 |
+| [The Web of Agents (WoA)](https://datatracker.ietf.org/doc/draft-gaikwad-woa/) | draft-gaikwad-woa | Independent | 2025-11 |
 | [Internet of Agents Task Protocol (IoA Task Protocol) for Heterogeneous Agent Collaboration](https://datatracker.ietf.org/doc/draft-yang-dmsc-ioa-task-protocol/) | draft-yang-dmsc-ioa-task-protocol | Beijing University of Posts and Telecommunications, Tsinghua University, China Telecom | 2026-01 |
 | [Dynamic Multi-agents Secured Collaboration Infrastructure Architecture](https://datatracker.ietf.org/doc/draft-li-dmsc-inf-architecture/) | draft-li-dmsc-inf-architecture | China Telecom | 2026-01 |
 | [Agent Collaboration Protocols Architecture for Internet of Agents](https://datatracker.ietf.org/doc/draft-liu-dmsc-acps-arc/00/) | draft-liu-dmsc-acps-arc | Beijing University of Posts and Telecommunications | 2026-01 |
