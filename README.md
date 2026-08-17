@@ -45,6 +45,7 @@
 | [Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) | draft-eckert-catalist-acip-framework | Futurewei | 2026-03 |
 | [Agentic Intent Network (AIN): A Routing-Based Architecture for AI Agent Coordination at Scale](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-architecture/) | draft-feng-nmrg-ain-architecture | Ruijie Networks | 2026-04 |
 | [AI Agent Interoperable Protocol Framework (AIPF)](https://datatracker.ietf.org/doc/draft-zahed-agent-comm-framework/) | draft-zahed-agent-comm-framework | Nokia, China Mobile, Alibaba Cloud | 2026-06 |
+| [Architectural Requirements for Supporting AI Agents on the Internet](https://datatracker.ietf.org/doc/draft-daniel-ai-agent-internet-architecture/) | draft-daniel-ai-agent-internet-architecture | Samsung Electronics | 2026-08 |
 
 #### Agent Identity
 
