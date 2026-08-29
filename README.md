@@ -105,6 +105,7 @@
 | [Discovery of Model Context Protocol Servers via DNS TXT Records](https://datatracker.ietf.org/doc/draft-morrison-mcp-dns/) | draft-morrison-mcp-dns | Alter Meridian Pty Ltd | 2026-07 |
 | [Distributed Registration and Information Synchronization of Agent Capabilities](https://datatracker.ietf.org/doc/draft-wang-dmsc-drisac/) | draft-wang-dmsc-drisac | China Telecom | 2026-08 |
 | [DNS-Based Service Discovery for Agent2Agent (A2A) Protocol Agents](https://datatracker.ietf.org/doc/draft-zhao-a2a-dns-sd/) | draft-zhao-a2a-dns-sd | Independent | 2026-08 |
+| [Multi-Source Corroboration for AI Agent Discovery](https://datatracker.ietf.org/doc/draft-chandra-agent-registry-corroboration/) | draft-chandra-agent-registry-corroboration | Stellarminds.ai | 2026-08 |
 
 #### Protocol
 
