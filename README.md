@@ -106,6 +106,8 @@
 | [Distributed Registration and Information Synchronization of Agent Capabilities](https://datatracker.ietf.org/doc/draft-wang-dmsc-drisac/) | draft-wang-dmsc-drisac | China Telecom | 2026-08 |
 | [DNS-Based Service Discovery for Agent2Agent (A2A) Protocol Agents](https://datatracker.ietf.org/doc/draft-zhao-a2a-dns-sd/) | draft-zhao-a2a-dns-sd | Independent | 2026-08 |
 | [Multi-Source Corroboration for AI Agent Discovery](https://datatracker.ietf.org/doc/draft-chandra-agent-registry-corroboration/) | draft-chandra-agent-registry-corroboration | Stellarminds.ai | 2026-08 |
+| [Agent Identity and Discovery (AID)](https://datatracker.ietf.org/doc/draft-nemethi-dawn-aid/) | draft-nemethi-dawn-aid | Open Agent Registry, Inc. | 2026-09 |
+| [The 'agent' Uniform Resource Identifier (URI) Scheme and Cryptographic Attestation Protocol](https://datatracker.ietf.org/doc/draft-kanojia-creduent-agent-uri/) | draft-kanojia-creduent-agent-uri | IDevSec | 2026-09 |
 
 #### Protocol
 
@@ -151,6 +153,8 @@
 | [Internet Agent Communication Protocol - DHI - ERP](https://datatracker.ietf.org/doc/draft-gebauer-iacp-dhi-erp/) | draft-gebauer-iacp-dhi-erp | Independent | 2026-07 |
 | [Internet Agent Communication Protocol - ECONOMY](https://datatracker.ietf.org/doc/draft-gebauer-iacp-economy/) | draft-gebauer-iacp-economy | Independent | 2026-07 |
 | [Offline Delivery and Reachability for Agent-to-Agent Messaging](https://datatracker.ietf.org/doc/draft-chapman-a2a-offline-delivery/) | draft-chapman-a2a-offline | Qwixl | 2026-08 |
+| [Agent Envelope Exchange (AEE): A Minimal JSON Envelope Format for Inter-Agent Communicationl](https://datatracker.ietf.org/doc/draft-cowles-aee/) | draft-cowles-aee | Quox Ltd | 2026-08 |
+| [Agent Infrastructure Control Protocol](https://datatracker.ietf.org/doc/draft-paxton-aicp/) | draft-paxton-aicp | Apollo Deploy | 2026-09 |
 
 #### Security
 
