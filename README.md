@@ -69,6 +69,7 @@
 | [Agent Identity Protocol (AIP): Decentralized Identity and Delegation for AI Agents](https://datatracker.ietf.org/doc/draft-singla-agent-identity-protocol/) | draft-singla-agent-identity-protocol | Independent | 2026-04 |
 | [SAIP: Signed Agent Identity Protocol](https://datatracker.ietf.org/doc/draft-jovancevic-saip/) | draft-jovancevic-saip | SKGO, IKT Support | 2026-04 |
 | [AGTP Merchant Identity and Agentic Commerce Binding](https://datatracker.ietf.org/doc/draft-hood-agtp-merchant-identity/) | draft-hood-agtp-merchant-identity | independent | 2026-04 |
+| [DNS-Anchored Durable Identity for AI Agents (DNSid)](https://datatracker.ietf.org/doc/draft-ihsanullah-dnsid/) | draft-ihsanullah-dnsid | Identity Digital | 2026-05 |
 | [Self-Certifying Identity and Capability-Based Delegation for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-duda-agent-id-framework/) | draft-duda-agent-id-framework | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG; Huawei | 2026-06 |
 | [AgIS: An Agent Identity System for DNS-Backed Verification of AI and Software Agents](https://datatracker.ietf.org/doc/draft-ayoub-agis-agent-identity-system/) | draft-ayoub-agis-agent-identity-system | EPICORTEK Technologies Inc. | 2026-06 |
 
