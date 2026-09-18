@@ -110,6 +110,7 @@
 | [Agent Identity and Discovery (AID)](https://datatracker.ietf.org/doc/draft-nemethi-dawn-aid/) | draft-nemethi-dawn-aid | Open Agent Registry, Inc. | 2026-09 |
 | [The 'agent' Uniform Resource Identifier (URI) Scheme and Cryptographic Attestation Protocol](https://datatracker.ietf.org/doc/draft-kanojia-creduent-agent-uri/) | draft-kanojia-creduent-agent-uri | IDevSec | 2026-09 |
 | [A Framework for Agent Discovery in DAWN](https://datatracker.ietf.org/doc/draft-zhang-dawn-agent-discovery-framework/) | draft-zhang-dawn-agent-discovery-framework | Pengcheng Laboratory | 2026-09 |
+| [Agent Registry Protocol](https://datatracker.ietf.org/doc/draft-sankarshan-agent-registry-protocol/) | draft-sankarshan-agent-registry-protocol | QBF Consulting LLP | 2026-09 |
 
 #### Protocol
 
