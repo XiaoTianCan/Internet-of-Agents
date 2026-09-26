@@ -72,6 +72,7 @@
 | [DNS-Anchored Durable Identity for AI Agents (DNSid)](https://datatracker.ietf.org/doc/draft-ihsanullah-dnsid/) | draft-ihsanullah-dnsid | Identity Digital | 2026-05 |
 | [Self-Certifying Identity and Capability-Based Delegation for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-duda-agent-id-framework/) | draft-duda-agent-id-framework | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG; Huawei | 2026-06 |
 | [AgIS: An Agent Identity System for DNS-Backed Verification of AI and Software Agents](https://datatracker.ietf.org/doc/draft-ayoub-agis-agent-identity-system/) | draft-ayoub-agis-agent-identity-system | EPICORTEK Technologies Inc. | 2026-06 |
+| [The Agent Identity Authority: A Multi-Stakeholder Governance Framework for the Agent Identity Registry System](https://datatracker.ietf.org/doc/draft-drake-agent-identity-governance/) | draft-drake-agent-identity-governance | 1id.com | 2026-09 |
 
 #### Agent Registry and Discovery
 
@@ -188,6 +189,7 @@
 | [ADRP: Agent Dispute Resolution Protocol](https://datatracker.ietf.org/doc/draft-stone-adrp/) | draft-stone-adrp | SwarmSync.AI | 2026-04 |
 | [Verifiable Usage Accounting for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-ioa-usage-accounting/) | draft-zhang-ioa-usage-accounting | AsiaInfo Technologies (China) Inc. | 2026-05 |
 | [Agent Gateway Policy Control Model](https://datatracker.ietf.org/doc/draft-zhao-opsawg-agent-gateway-policy/) | draft-zhao-opsawg-agent-gateway | China Unicom | 2026-07 |
+| [A Policy Grammar for Inter-Domain Agent Routing](https://datatracker.ietf.org/doc/draft-ahuja-agent-routing-policy/) | draft-ahuja-agent-routing-policy | Main Labs | 2026-09 |
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
 
