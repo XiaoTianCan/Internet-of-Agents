@@ -72,6 +72,7 @@
 | [DNS-Anchored Durable Identity for AI Agents (DNSid)](https://datatracker.ietf.org/doc/draft-ihsanullah-dnsid/) | draft-ihsanullah-dnsid | Identity Digital | 2026-05 |
 | [Self-Certifying Identity and Capability-Based Delegation for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-duda-agent-id-framework/) | draft-duda-agent-id-framework | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG; Huawei | 2026-06 |
 | [AgIS: An Agent Identity System for DNS-Backed Verification of AI and Software Agents](https://datatracker.ietf.org/doc/draft-ayoub-agis-agent-identity-system/) | draft-ayoub-agis-agent-identity-system | EPICORTEK Technologies Inc. | 2026-06 |
+| [OpenA2A Agent Identity Protocol (AIP)](https://datatracker.ietf.org/doc/draft-fane-opena2a-aip/) | draft-fane-opena2a-aip | OpenA2A | 2026-07 |
 | [The Agent Identity Authority: A Multi-Stakeholder Governance Framework for the Agent Identity Registry System](https://datatracker.ietf.org/doc/draft-drake-agent-identity-governance/) | draft-drake-agent-identity-governance | 1id.com | 2026-09 |
 
 #### Agent Registry and Discovery
