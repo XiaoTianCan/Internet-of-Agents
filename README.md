@@ -31,6 +31,7 @@
 | [Agents Networking Framework for Enterprise and Broadband](https://datatracker.ietf.org/doc/draft-zlgsgl-rtgwg-agents-networking-framework/) | draft-zlgsgl-rtgwg-agents-networking-framework | Huawei | 2025-11 |
 | [Semantic Routing Architecture for AI Agents Communication](https://datatracker.ietf.org/doc/draft-li-semantic-routing-architecture/) | draft-li-semantic-routing-architecture | China Telecom | 2025-11 |
 | [Agent Gateway Intercommunication Framework](https://datatracker.ietf.org/doc/draft-han-rtgwg-agent-gateway-intercomm-framework/) | draft-han-rtgwg-agent-gateway-intercomm-framework | China Unicom | 2025-11 |
+| [The Web of Agents (WoA)](https://datatracker.ietf.org/doc/draft-gaikwad-woa/) | draft-gaikwad-woa | Independent | 2025-11 |
 | [Internet of Agents Task Protocol (IoA Task Protocol) for Heterogeneous Agent Collaboration](https://datatracker.ietf.org/doc/draft-yang-dmsc-ioa-task-protocol/) | draft-yang-dmsc-ioa-task-protocol | Beijing University of Posts and Telecommunications, Tsinghua University, China Telecom | 2026-01 |
 | [Dynamic Multi-agents Secured Collaboration Infrastructure Architecture](https://datatracker.ietf.org/doc/draft-li-dmsc-inf-architecture/) | draft-li-dmsc-inf-architecture | China Telecom | 2026-01 |
 | [Agent Collaboration Protocols Architecture for Internet of Agents](https://datatracker.ietf.org/doc/draft-liu-dmsc-acps-arc/00/) | draft-liu-dmsc-acps-arc | Beijing University of Posts and Telecommunications | 2026-01 |
@@ -44,6 +45,7 @@
 | [Framework for Agent Communications Internet Protocol (ACIP) based Agent Aware Networks](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) | draft-eckert-catalist-acip-framework | Futurewei | 2026-03 |
 | [Agentic Intent Network (AIN): A Routing-Based Architecture for AI Agent Coordination at Scale](https://datatracker.ietf.org/doc/draft-feng-nmrg-ain-architecture/) | draft-feng-nmrg-ain-architecture | Ruijie Networks | 2026-04 |
 | [AI Agent Interoperable Protocol Framework (AIPF)](https://datatracker.ietf.org/doc/draft-zahed-agent-comm-framework/) | draft-zahed-agent-comm-framework | Nokia, China Mobile, Alibaba Cloud | 2026-06 |
+| [Architectural Requirements for Supporting AI Agents on the Internet](https://datatracker.ietf.org/doc/draft-daniel-ai-agent-internet-architecture/) | draft-daniel-ai-agent-internet-architecture | Samsung Electronics | 2026-08 |
 
 #### Agent Identity
 
@@ -67,8 +69,11 @@
 | [Agent Identity Protocol (AIP): Decentralized Identity and Delegation for AI Agents](https://datatracker.ietf.org/doc/draft-singla-agent-identity-protocol/) | draft-singla-agent-identity-protocol | Independent | 2026-04 |
 | [SAIP: Signed Agent Identity Protocol](https://datatracker.ietf.org/doc/draft-jovancevic-saip/) | draft-jovancevic-saip | SKGO, IKT Support | 2026-04 |
 | [AGTP Merchant Identity and Agentic Commerce Binding](https://datatracker.ietf.org/doc/draft-hood-agtp-merchant-identity/) | draft-hood-agtp-merchant-identity | independent | 2026-04 |
+| [DNS-Anchored Durable Identity for AI Agents (DNSid)](https://datatracker.ietf.org/doc/draft-ihsanullah-dnsid/) | draft-ihsanullah-dnsid | Identity Digital | 2026-05 |
 | [Self-Certifying Identity and Capability-Based Delegation for Autonomous AI Agents](https://datatracker.ietf.org/doc/draft-duda-agent-id-framework/) | draft-duda-agent-id-framework | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG; Huawei | 2026-06 |
 | [AgIS: An Agent Identity System for DNS-Backed Verification of AI and Software Agents](https://datatracker.ietf.org/doc/draft-ayoub-agis-agent-identity-system/) | draft-ayoub-agis-agent-identity-system | EPICORTEK Technologies Inc. | 2026-06 |
+| [OpenA2A Agent Identity Protocol (AIP)](https://datatracker.ietf.org/doc/draft-fane-opena2a-aip/) | draft-fane-opena2a-aip | OpenA2A | 2026-07 |
+| [The Agent Identity Authority: A Multi-Stakeholder Governance Framework for the Agent Identity Registry System](https://datatracker.ietf.org/doc/draft-drake-agent-identity-governance/) | draft-drake-agent-identity-governance | 1id.com | 2026-09 |
 
 #### Agent Registry and Discovery
 
@@ -100,7 +105,14 @@
 | [Registration and Discovery Extension for Multi-Model Agents](https://datatracker.ietf.org/doc/draft-zhu-agent-registration-discovery/) | draft-zhu-agent-registration | China Mobile | 2026-07 |
 | [DNS-based Entity-Level Discovery and End-to-End Connection for AI Agents](https://datatracker.ietf.org/doc/draft-ni-agent-entity-discovery/) | draft-ni-agent-entity | Huawei | 2026-07 |
 | [Zero-Configuration Agent Discovery](https://datatracker.ietf.org/doc/draft-jakab-dawn-agent-discovery-mdns/) | draft-jakab-dawn-agent-discovery-mdns | Cisco Systems | 2026-07 |
-| [Discovery of Model Context Protocol Servers via DNS TXT Records](https://datatracker.ietf.org/doc/draft-morrison-mcp-dns/) | draft-morrison-mcp-dns-05 | Alter Meridian Pty Ltd | 2026-07 |
+| [Discovery of Model Context Protocol Servers via DNS TXT Records](https://datatracker.ietf.org/doc/draft-morrison-mcp-dns/) | draft-morrison-mcp-dns | Alter Meridian Pty Ltd | 2026-07 |
+| [Distributed Registration and Information Synchronization of Agent Capabilities](https://datatracker.ietf.org/doc/draft-wang-dmsc-drisac/) | draft-wang-dmsc-drisac | China Telecom | 2026-08 |
+| [DNS-Based Service Discovery for Agent2Agent (A2A) Protocol Agents](https://datatracker.ietf.org/doc/draft-zhao-a2a-dns-sd/) | draft-zhao-a2a-dns-sd | Independent | 2026-08 |
+| [Multi-Source Corroboration for AI Agent Discovery](https://datatracker.ietf.org/doc/draft-chandra-agent-registry-corroboration/) | draft-chandra-agent-registry-corroboration | Stellarminds.ai | 2026-08 |
+| [Agent Identity and Discovery (AID)](https://datatracker.ietf.org/doc/draft-nemethi-dawn-aid/) | draft-nemethi-dawn-aid | Open Agent Registry, Inc. | 2026-09 |
+| [The 'agent' Uniform Resource Identifier (URI) Scheme and Cryptographic Attestation Protocol](https://datatracker.ietf.org/doc/draft-kanojia-creduent-agent-uri/) | draft-kanojia-creduent-agent-uri | IDevSec | 2026-09 |
+| [A Framework for Agent Discovery in DAWN](https://datatracker.ietf.org/doc/draft-zhang-dawn-agent-discovery-framework/) | draft-zhang-dawn-agent-discovery-framework | Pengcheng Laboratory | 2026-09 |
+| [Agent Registry Protocol](https://datatracker.ietf.org/doc/draft-sankarshan-agent-registry-protocol/) | draft-sankarshan-agent-registry-protocol | QBF Consulting LLP | 2026-09 |
 
 #### Protocol
 
@@ -146,6 +158,8 @@
 | [Internet Agent Communication Protocol - DHI - ERP](https://datatracker.ietf.org/doc/draft-gebauer-iacp-dhi-erp/) | draft-gebauer-iacp-dhi-erp | Independent | 2026-07 |
 | [Internet Agent Communication Protocol - ECONOMY](https://datatracker.ietf.org/doc/draft-gebauer-iacp-economy/) | draft-gebauer-iacp-economy | Independent | 2026-07 |
 | [Offline Delivery and Reachability for Agent-to-Agent Messaging](https://datatracker.ietf.org/doc/draft-chapman-a2a-offline-delivery/) | draft-chapman-a2a-offline | Qwixl | 2026-08 |
+| [Agent Envelope Exchange (AEE): A Minimal JSON Envelope Format for Inter-Agent Communicationl](https://datatracker.ietf.org/doc/draft-cowles-aee/) | draft-cowles-aee | Quox Ltd | 2026-08 |
+| [Agent Infrastructure Control Protocol](https://datatracker.ietf.org/doc/draft-paxton-aicp/) | draft-paxton-aicp | Apollo Deploy | 2026-09 |
 
 #### Security
 
@@ -176,6 +190,7 @@
 | [ADRP: Agent Dispute Resolution Protocol](https://datatracker.ietf.org/doc/draft-stone-adrp/) | draft-stone-adrp | SwarmSync.AI | 2026-04 |
 | [Verifiable Usage Accounting for Internet of Agents](https://datatracker.ietf.org/doc/draft-zhang-ioa-usage-accounting/) | draft-zhang-ioa-usage-accounting | AsiaInfo Technologies (China) Inc. | 2026-05 |
 | [Agent Gateway Policy Control Model](https://datatracker.ietf.org/doc/draft-zhao-opsawg-agent-gateway-policy/) | draft-zhao-opsawg-agent-gateway | China Unicom | 2026-07 |
+| [A Policy Grammar for Inter-Domain Agent Routing](https://datatracker.ietf.org/doc/draft-ahuja-agent-routing-policy/) | draft-ahuja-agent-routing-policy | Main Labs | 2026-09 |
 
 ### TC28/SC42 全国信息技术标准化技术委员会人工智能分技术委员会
 
@@ -188,6 +203,7 @@
 | 5 | 《人工智能智能体互联 第5部分：智能体发现》 | GB/Z 185.5-2026 |
 | 6 | 《人工智能智能体互联 第6部分：智能体交互》 | GB/Z 185.6-2026 |
 | 7 | 《人工智能智能体互联 第7部分：智能体工具调用》 | GB/Z 185.7-2026 |
+| 8 | 《人工智能智能体互联 第8部分：智能体审计》 | in progress |
 
 ## White Papers
 
@@ -203,6 +219,7 @@
 | [智能体互联网白皮书](https://www.sgpjbg.com.cn/baogao/873212.html) | 2025-08 | 中国联通研究院、下一代互联网宽带业务应用国家工程研究中心 |
 | [智能体互联网技术白皮书](https://www.sgpjbg.com.cn/baogao/931371.html) | 2025-09 | 中国移动 |
 | [智能体互联网架构与关键技术报告](https://e.huawei.com/cn/documents/campaign/enterprise-network/f68c876e9fd743b9b9c6cd1dfb938dc4) | 2025-10 | 华为、中国信通院、中国银联等 |
+| [面向智能互联的网络技术与实践报告V2.0](https://e.huawei.com/cn/documents/campaign/enterprise-network/ec74729e54eb4b66afcd43cc2f023b8d) | 2026-07 | 华为、中国信通院、NIDA等 |
 
 
 ## Communities or Projects
