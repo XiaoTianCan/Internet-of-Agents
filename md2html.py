@@ -29,7 +29,7 @@ def md_to_academic_html(md_file_path, output_dir=None, title=None, update_date=N
     else:
         os.makedirs(output_dir, exist_ok=True)
     
-    html_filename = md_file.stem + '.html'
+    html_filename = 'index.html'
     html_file = Path(output_dir) / html_filename
     
     # 默认标题使用文件名（去除扩展名）
